@@ -1,0 +1,182 @@
+body {
+	background: #cccccc;
+}
+
+.stage {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+#sun {
+	width: 10px;
+	height: 200px;
+	background: #98CE00;
+	position: absolute;
+	z-index: 1;
+	top: 100px;
+	left: 180px;
+	z-index: 1;
+
+}
+
+#leaves {
+	width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 11;
+    top: 51px;
+    left: 134px;
+    background: #453630;
+    clip-path: polygon(0% 0%,61% 45%, 8% 65%, 12% 66%, 55% 1%, 50% 50%, 51% 21%, 23% 3%, 25% 123%, 79%5%);
+    
+}
+
+
+
+#leaves1 {
+
+	width: 178px;
+    height: 200px;
+    position: absolute;
+    z-index: 11;
+    top: 20px;
+    left: 61px;
+    transform: rotate(90deg);
+    background: #Edbc00;
+    clip-path: polygon(0% 0%,61% 45%, 8% 65%, 12% 66%, 55% 1%, 50% 50%, 51% 21%, 23% 3%, 52% 63%, 79%5%);
+}
+#yellowflower {
+
+}
+
+#vase {
+	width: 46px;
+    height: 17px;
+    top: 225px;
+    left: 157px;
+    border-radius: 15%;
+    position: absolute;
+    z-index: 100px;
+    background: #000000;
+}
+
+#flower {
+	width: 150px;
+	height: 150px;
+	background: red;
+	position: absolute;
+	top: 213px;
+	left: 110px;
+	border-radius: 150px;
+	z-index: 12;
+}
+
+#orange {
+	width: 63px;
+	height: 69px;
+	background: orange;
+	top: 280px;
+	left: 330px;
+	position: absolute;
+	border-radius: 36px;
+	z-index: 11;
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+
+
+#bird {
+	width: 150px;
+	height: 150px;
+	background: green;
+	clip-path: polygon(38% 3%, 53% 44%, 64% 44%, 76% 58%, 70% 73%, 55% 67%, 43% 72%, 36% 57%, 8% 49%, 41% 48%);
+	top: 203px;
+	left: 500px;
+	position: absolute;
+	z-index: 11;
+
+	/* uncomment for css transitions */
+	/* transition: all 400ms ease; */
+}
+
+#orange1 {
+	width: 63px;
+	height: 69px;
+	background: orange;
+	top: 66px;
+	left: 153px;
+	position: absolute;
+	border-radius: 36px;
+	z-index: 11;
+	clip-path: polygon(49% 17%, 61% 35%, 93% 25%, 63% 54%, 69% 81%, 50% 58%, 36% 76%, 37% 57%, 30% 11%, 45% 42%);
+
+}
+
+#circle {
+    width: 45px;
+    height: 45px;
+    background: #330A00;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 26px;
+    margin-top: 37px;
+    z-index: 7;
+    top: 45px;
+    left: 134px;
+}
+
+#table {
+
+    border-bottom: 170px solid #FF5733;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    height: 0;
+    width: 590px;
+    position: absolute;
+    top: 235px;
+    left: 40px;
+    z-index: 1;
+}
+
+#canvas {
+    width: 900px;
+    height: 556px;
+    margin: 100px auto;
+    background: white;
+    position: relative;
+    background: gray;
+}
+
+
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/
