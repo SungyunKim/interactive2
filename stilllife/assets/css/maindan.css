@@ -1,0 +1,44 @@
+body {
+	background: #cccccc;
+}
+
+#f {
+
+    width: 100px;
+    height: 100px;
+    background: #000000;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+    position: absolute;
+    
+}
+
+
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/
