@@ -1,0 +1,836 @@
+
+body {
+margin: 0;	
+}
+
+		
+
+
+
+.container{
+	left: 0;
+	top: 0;
+	width: 2000px;
+	height: 100vh;
+/*	background: #2A9E77;*/
+	position: relative;
+}
+
+
+/*Typeface*/
+.DanType{
+	position: absolute;
+	transform: rotate(0deg) translate(0px);	
+}
+
+.DanTypeA{
+	left: 0px;
+	top: 0px;
+}
+/*.DanTypeB{
+	left: 120px;
+	top: 0px;
+}*/
+.DanTypeC{
+	left: 120px;
+	top: 0px;
+}
+.DanTypeD{
+	left: 240px;
+	top: 0px;
+}
+.DanTypeE{
+	left: 360px;
+	top: 0px;
+}
+.DanTypeF{
+	left: 480px;
+	top: 0px;
+}
+/*TypefaceFrame*/
+.typefaceFrame{
+	position: absolute;
+}
+.Aa{
+	left: 10px;
+	top: 100px;
+}
+
+
+/*HEXATYPE*/
+
+.hexagroupTYPE{
+	position: absolute;
+	top: -26px;
+	left: -213px;
+	transition: 1s;
+}
+
+.hexagroupTYPE:hover{
+	transform: rotate(0deg) translate(100px);	
+}
+.hexagroupTYPE1{
+
+}
+
+	.TYPE1YP{
+		top: 30px;
+		left: 100px;
+		z-index: 19;
+	}
+	.TYPE1RP{
+		top: -22px;
+		left: 130px;
+		z-index: 10;
+	}
+	.TYPE1BP{
+		top: -74px;
+		left: 160px;
+		z-index: 9;
+	}
+
+.hexagroupTYPE2{
+
+}
+
+/*	.TYPE2YP{
+		top: 30px;
+		left: 100px;
+		z-index: 19;
+	}
+	.TYPE2RP{
+		top: -22px;
+		left: 130px;
+		z-index: 10;
+		
+	}
+	.TYPE2BP{
+		top: -74px;
+		left: 160px;
+		z-index: 9;
+		
+	}
+*/
+.hexagroupTYPE3{
+
+}
+
+	.TYPE3BKP{
+		top: -74px;
+		left: 160px;
+		z-index: 9;
+	}
+	.TYPE3RP{
+		top: 30px;
+		left: 100px;
+		z-index: 19;
+		
+	}
+	.TYPE3BP{
+		top: -22px;
+		left: 130px;
+		z-index: 10;
+		
+	}
+
+.hexagroupTYPE4{
+
+}
+
+	.TYPE4BKP{
+		top: -74px;
+		left: 160px;
+		z-index: 9;
+	}
+	.TYPE4RP{
+		top: 30px;
+		left: 100px;
+		z-index: 19;
+		
+	}
+	.TYPE4BP{
+		top: -22px;
+		left: 130px;
+		z-index: 10;
+		
+	}
+
+.hexagroupTYPE5{
+
+}
+
+	.TYPE5BKP{
+		top: -74px;
+		left: 160px;
+		z-index: 9;
+	}
+	.TYPE5RP{
+		top: 30px;
+		left: 100px;
+		z-index: 19;
+		
+	}
+	.TYPE5BP{
+		top: -22px;
+		left: 130px;
+		z-index: 10;
+		
+	}
+/*HEXATYPE END*/
+
+
+/*HEXACOLOR*/
+.hexagongroupYellow {
+	position: absolute;
+
+}
+	.hexagon-10{
+	float: left;
+	border-right: 30px solid #E5E243;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+	top: 99px;
+	left: 113px;
+	z-index: 11;
+	position: absolute;
+	}
+
+	.hexagon-11{
+	float: left;
+	width: 60px;
+	height: 104px;
+	background-color: #E5E243;
+	top: 100px;
+	left: 143px;
+	position: absolute;
+	z-index: 12;
+	}
+	.hexagon-12{
+	float: left;
+	border-left: 30px solid #E5E243;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+	z-index: 10;
+	top: 100px;
+	left: 203px;
+	position: absolute;
+	}
+	
+	
+
+.hexagongroupRed {
+position: absolute;
+
+}
+	.hexagon-13{
+	float: left;
+	border-right: 30px solid #D8221D;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+	top: 100px;
+	left: 113px;
+	z-index: 11;
+	position: absolute;
+
+
+	}
+
+	.hexagon-14{
+	float: left;
+	width: 60px;
+	height: 104px;
+	background-color: #D8221D;
+	top: 100px;
+	left: 143px;
+	position: absolute;
+	z-index: 12;
+
+	}
+
+	.hexagon-15{
+	float: left;
+	border-left: 30px solid #D8221D;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+	z-index: 10;
+	top: 100px;
+	left: 203px;
+	position: absolute;
+	}
+
+
+
+.hexagongroupBlue {
+	
+	position: absolute;
+	z-index: 9;
+}
+	.hexagon-16{
+		float: left;
+		border-right: 30px solid #1A4492;
+		border-top: 52px solid transparent;
+		border-bottom: 52px solid transparent;
+		top: 100px;
+		left: 113px;
+		z-index: 11;
+		position: absolute;
+	}
+
+	.hexagon-17{
+		float: left;
+		width: 60px;
+		height: 104px;
+		background-color: #1A4492;
+		top: 100px;
+		left: 143px;
+		position: absolute;
+		z-index: 12;
+
+	}
+
+	.hexagon-18{
+		float: left;
+		border-left: 30px solid #1A4492;
+		border-top: 52px solid transparent;
+		border-bottom: 52px solid transparent;
+		z-index: 10;
+		top: 100px;
+		left: 203px;
+		position: absolute;
+	}
+
+
+
+
+
+.hexagongroupBlack {
+	position: absolute;
+	z-index: 9;
+}
+	.hexagon-1{
+		float: left;
+		border-right: 30px solid #1A4492;
+		border-top: 52px solid transparent;
+		border-bottom: 52px solid transparent;
+		top: 100px;
+		left: 113px;
+		z-index: 11;
+		position: absolute;
+	}
+
+	.hexagon-2{
+		float: left;
+		width: 60px;
+		height: 104px;
+		background-color: #1A4492;
+		top: 100px;
+		left: 143px;
+		position: absolute;
+		z-index: 12;
+
+	}
+
+	.hexagon-3{
+		float: left;
+		border-left: 30px solid #1A4492;
+		border-top: 52px solid transparent;
+		border-bottom: 52px solid transparent;
+		z-index: 10;
+		top: 100px;
+		left: 203px;
+		position: absolute;
+	}
+
+	.hexagon-4{
+		float: left;
+		border-right: 30px solid #6CBBA2;
+		border-top: 52px solid transparent;
+		border-bottom: 52px solid transparent;
+		top: 100px;
+		left: 113px;
+		z-index: 11;
+		position: absolute;
+	}
+
+	.hexagon-5{
+		float: left;
+		width: 60px;
+		height: 104px;
+		background-color: #6CBBA2;
+		top: 100px;
+		left: 143px;
+		position: absolute;
+		z-index: 12;
+
+	}
+
+	.hexagon-6{
+		float: left;
+		border-left: 30px solid #6CBBA2;
+		border-top: 52px solid transparent;
+		border-bottom: 52px solid transparent;
+		z-index: 10;
+		top: 100px;
+		left: 203px;
+		position: absolute;
+	}
+
+	.hexagon-7{
+		float: left;
+		border-right: 30px solid #67B032;
+		border-top: 52px solid transparent;
+		border-bottom: 52px solid transparent;
+		top: 100px;
+		left: 113px;
+		z-index: 11;
+		position: absolute;
+	}
+
+	.hexagon-8{
+		float: left;
+		width: 60px;
+		height: 104px;
+		background-color: #67B032;
+		top: 100px;
+		left: 143px;
+		position: absolute;
+		z-index: 12;
+
+	}
+
+	.hexagon-9{
+		float: left;
+		border-left: 30px solid #67B032;
+		border-top: 52px solid transparent;
+		border-bottom: 52px solid transparent;
+		z-index: 10;
+		top: 100px;
+		left: 203px;
+		position: absolute;
+	}
+
+
+	.hexagongroupBlack {
+	position: absolute;
+	z-index: 9;
+}
+	.hexagon-1{
+		float: left;
+		border-right: 30px solid #1A4492;
+		border-top: 52px solid transparent;
+		border-bottom: 52px solid transparent;
+		top: 100px;
+		left: 113px;
+		z-index: 11;
+		position: absolute;
+	}
+
+	.hexagon-2{
+		float: left;
+		width: 60px;
+		height: 104px;
+		background-color: #1A4492;
+		top: 100px;
+		left: 143px;
+		position: absolute;
+		z-index: 12;
+
+	}
+
+	.hexagon-3{
+		float: left;
+		border-left: 30px solid #1A4492;
+		border-top: 52px solid transparent;
+		border-bottom: 52px solid transparent;
+		z-index: 10;
+		top: 100px;
+		left: 203px;
+		position: absolute;
+	}
+
+	.hexagon-4{
+		float: left;
+		border-right: 30px solid #6CBBA2;
+		border-top: 52px solid transparent;
+		border-bottom: 52px solid transparent;
+		top: 100px;
+		left: 113px;
+		z-index: 11;
+		position: absolute;
+	}
+
+	.hexagon-5{
+		float: left;
+		width: 60px;
+		height: 104px;
+		background-color: #6CBBA2;
+		top: 100px;
+		left: 143px;
+		position: absolute;
+		z-index: 12;
+
+	}
+
+	.hexagon-6{
+		float: left;
+		border-left: 30px solid #6CBBA2;
+		border-top: 52px solid transparent;
+		border-bottom: 52px solid transparent;
+		z-index: 10;
+		top: 100px;
+		left: 203px;
+		position: absolute;
+	}
+
+	.hexagon-7{
+		float: left;
+		border-right: 30px solid #67B032;
+		border-top: 52px solid transparent;
+		border-bottom: 52px solid transparent;
+		top: 100px;
+		left: 113px;
+		z-index: 11;
+		position: absolute;
+	}
+
+	.hexagon-8{
+		float: left;
+		width: 60px;
+		height: 104px;
+		background-color: #67B032;
+		top: 100px;
+		left: 143px;
+		position: absolute;
+		z-index: 12;
+
+	}
+
+	.hexagon-9{
+		float: left;
+		border-left: 30px solid #67B032;
+		border-top: 52px solid transparent;
+		border-bottom: 52px solid transparent;
+		z-index: 10;
+		top: 100px;
+		left: 203px;
+		position: absolute;
+	}
+
+	.hexagongroupBlack {
+	position: absolute;
+	z-index: 9;
+}
+	.hexagon-1{
+		float: left;
+		border-right: 30px solid #1A4492;
+		border-top: 52px solid transparent;
+		border-bottom: 52px solid transparent;
+		top: 100px;
+		left: 113px;
+		z-index: 11;
+		position: absolute;
+	}
+
+	.hexagon-2{
+		float: left;
+		width: 60px;
+		height: 104px;
+		background-color: #1A4492;
+		top: 100px;
+		left: 143px;
+		position: absolute;
+		z-index: 12;
+
+	}
+
+	.hexagon-3{
+		float: left;
+		border-left: 30px solid #1A4492;
+		border-top: 52px solid transparent;
+		border-bottom: 52px solid transparent;
+		z-index: 10;
+		top: 100px;
+		left: 203px;
+		position: absolute;
+	}
+
+	.hexagon-4{
+		float: left;
+		border-right: 30px solid #6CBBA2;
+		border-top: 52px solid transparent;
+		border-bottom: 52px solid transparent;
+		top: 100px;
+		left: 113px;
+		z-index: 11;
+		position: absolute;
+	}
+
+	.hexagon-5{
+		float: left;
+		width: 60px;
+		height: 104px;
+		background-color: #6CBBA2;
+		top: 100px;
+		left: 143px;
+		position: absolute;
+		z-index: 12;
+
+	}
+
+	.hexagon-6{
+		float: left;
+		border-left: 30px solid #6CBBA2;
+		border-top: 52px solid transparent;
+		border-bottom: 52px solid transparent;
+		z-index: 10;
+		top: 100px;
+		left: 203px;
+		position: absolute;
+	}
+
+	.hexagon-7{
+		float: left;
+		border-right: 30px solid #67B032;
+		border-top: 52px solid transparent;
+		border-bottom: 52px solid transparent;
+		top: 100px;
+		left: 113px;
+		z-index: 11;
+		position: absolute;
+	}
+
+	.hexagon-8{
+		float: left;
+		width: 60px;
+		height: 104px;
+		background-color: #67B032;
+		top: 100px;
+		left: 143px;
+		position: absolute;
+		z-index: 12;
+
+	}
+
+	.hexagon-9{
+		float: left;
+		border-left: 30px solid #67B032;
+		border-top: 52px solid transparent;
+		border-bottom: 52px solid transparent;
+		z-index: 10;
+		top: 100px;
+		left: 203px;
+		position: absolute;
+	}
+
+	.orginalType-A {
+
+		border-bottom: 25px solid #ffffff;
+	    border-left: 15px solid transparent;
+	    border-right: 15px solid transparent;
+	    height: 5px;
+	    width: 35px;
+	    top: 17px;
+	    left: 17px;
+	    z-index: 19;
+	    position: absolute;
+
+
+}
+.orginalType-B {
+
+		border-bottom: 25px solid #ffffff;
+	    border-left: 15px solid transparent;
+	    border-right: 15px solid transparent;
+	    height: 0px;
+	    width: 35px;
+	    top: 60px;
+	    left: 17px;
+	    z-index: 19;
+	    position: absolute;
+	    transform: rotate(180deg);
+}
+
+.orginalType-C {
+
+		border-bottom: 25px solid #ffffff;
+	    border-left: 15px solid transparent;
+	    border-right: 15px solid transparent;
+	    height: 0px;
+	    width: 35px;
+	    top: 83px;
+	    left: 18px;
+	    z-index: 19;
+	    position: absolute;
+}
+
+.orginalType-D {
+
+		border-bottom: 25px solid #ffffff;
+	    border-left: 15px solid transparent;
+	    border-right: 15px solid transparent;
+	    height: 0px;
+	    width: 35px;
+	    top: 22px;
+	    left: 137px;
+	    z-index: 19;
+	    position: absolute;
+}
+
+.orginalType-E {
+
+		border-bottom: 25px solid #ffffff;
+	    border-left: 15px solid transparent;
+	    border-right: 15px solid transparent;
+	    height: 0px;
+	    width: 35px;
+	    top: 60px;
+	    left: 137px;
+	    z-index: 19;
+	    position: absolute;
+	    transform: rotate(180deg);
+}
+
+
+
+
+/*HEXACOLOR END*/
+
+
+
+/*hexgroup1 end*/
+
+
+/*.3hexagroup {
+top: 20px;
+left: 20px;
+z-index: 10;
+position: absolute;
+}
+
+
+
+.hexagon-01{
+float: left;
+border-right: 30px solid #E5E243;
+border-top: 52px solid transparent;
+border-bottom: 52px solid transparent;
+top: 99px;
+left: 113px;
+z-index: 11;
+position: relative;
+
+
+}
+
+.hexagon-02{
+float: left;
+width: 60px;
+height: 104px;
+background-color: #E5E243;
+top: 100px;
+left: 143px;
+position: absolute;
+z-index: 12;
+
+}
+
+.hexagon-03{
+float: left;
+border-left: 30px solid #E5E243;
+border-top: 52px solid transparent;
+border-bottom: 52px solid transparent;
+z-index: 10;
+top: 100px;
+left: 203px;
+position: absolute;
+}
+
+
+
+.hexagon-04{
+float: left;
+border-right: 30px solid #D8221D;
+border-top: 52px solid transparent;
+border-bottom: 52px solid transparent;
+top: 100px;
+left: 113px;
+z-index: 11;
+position: absolute;
+
+
+}
+
+.hexagon-05{
+float: left;
+width: 60px;
+height: 104px;
+background-color: #D8221D;
+top: 100px;
+left: 143px;
+position: absolute;
+z-index: 12;
+
+}
+
+.hexagon-06{
+float: left;
+border-left: 30px solid #D8221D;
+border-top: 52px solid transparent;
+border-bottom: 52px solid transparent;
+z-index: 10;
+top: 100px;
+left: 203px;
+position: absolute;
+}
+
+
+
+.hexagon-07{
+float: left;
+border-right: 30px solid #1A4492;
+border-top: 52px solid transparent;
+border-bottom: 52px solid transparent;
+top: 100px;
+left: 113px;
+z-index: 11;
+position: absolute;
+
+
+}
+
+.hexagon-08{
+float: left;
+width: 60px;
+height: 104px;
+background-color: #1A4492;
+top: 100px;
+left: 143px;
+position: absolute;
+z-index: 12;
+
+}
+
+.hexagon-09{
+float: left;
+border-left: 30px solid #1A4492;
+border-top: 52px solid transparent;
+border-bottom: 52px solid transparent;
+z-index: 10;
+top: 100px;
+left: 203px;
+position: absolute;
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
