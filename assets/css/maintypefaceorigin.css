@@ -1,0 +1,273 @@
+body {
+margin: 0;
+}
+
+.hexa1 {
+background: red;	
+width: 100px;
+height: 100px;
+position: absolute;
+clip-path: polygon(50% 7%, 74% 50%, 47% 100%, 0 100%);
+top: 0px;
+left: 0px;
+
+}
+.hexa2 {
+background: green;
+width: 96px;
+height: 96px;
+position: absolute;
+clip-path: polygon(52% 7%, 78% 52%, 51% 100%, 0 100%);
+top: -22px;
+left: 67px;
+transform: rotate(61deg);
+
+}
+
+.hexa3 {
+background: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(50% 7%, 74% 50%, 47% 100%, 0 100%);
+    top: 100px;
+    left: 100px;
+    transform: rotate(180deg);
+
+
+}
+
+.hexa4 {
+background: green;
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    clip-path: polygon(52% 9%, 78% 52%, 51% 100%, 0 99%);
+    top: 126px;
+    left: 37px;
+    transform: rotate(-120deg);
+
+}
+
+.hexa5 {
+background: pink;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(51% 8%, 77% 49%, 50% 98%, 0 100%);
+    top: 27px;
+    left: 116px;
+    transform: rotate(123deg);
+}
+
+.hexa6 {
+background: pink;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(51% 8%, 77% 49%, 49% 98%, -1% 100%);
+    top: 73px;
+    left: -16px;
+    transform: rotate(-58deg);
+
+}
+
+.hexa7 {
+    background: purple;
+    width: 186px;
+    height: 73px;
+    position: absolute;
+    top: 61px;
+    left: 7px;
+    transform: rotate(-180deg);
+    clip-path: polygon(0 30%, 100% 30%, 100% 63%, 0 64%);
+}
+
+.hexa8 {
+    background: purple;
+    width: 196px;
+    height: 75px;
+    position: absolute;
+    top: 63px;
+    left: 0px;
+    transform: rotate(-298deg);
+    clip-path: polygon(0 30%, 100% 30%, 100% 63%, 0 64%);
+    z-index: 20;
+}
+
+.hexa9 {
+         background: purple;
+    width: 196px;
+    height: 77px;
+    position: absolute;
+    top: 61px;
+    left: 0px;
+    transform: rotate(-242deg);
+    clip-path: polygon(0 30%, 100% 30%, 100% 63%, 0 64%);
+}
+
+.hexa10 {
+    background: blue;
+    width: 173px;
+    height: 148px;
+    position: absolute;
+    top: 113px;
+    left: 9px;
+    transform: rotate(-270deg);
+    clip-path: polygon(0 28%, 53% 30%, 53% 63%, 0 64%);
+}
+
+.hexa11 {
+	
+	clip-path: polygon(65% 0, 35% 0, 50% 25%);
+    background: blue;
+    width: 173px;
+    height: 148px;
+    position: absolute;
+    top: 50px;
+    left: 14px;
+    transform: rotate(-360deg);
+    z-index: 10;
+}
+
+.hexa12 {
+background: orange;
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    clip-path: polygon(52% 7%, 78% 52%, 52% 99%, 0 102%);
+    top: 120px;
+    left: 116px;
+    transform: rotate(61deg);
+
+}
+.hexa13{
+    background: yellow;
+    width: 273px;
+    height: 148px;
+    position: absolute;
+    top: 110px;
+    left: -41px;
+    transform: rotate(-270deg);
+    clip-path: polygon(0 28%, 53% 30%, 53% 63%, 0 64%);
+}
+
+.hexa14 {
+	
+	    clip-path: polygon(65% 0, 35% 0, 50% 25%);
+    background: blue;
+    width: 173px;
+    height: 148px;
+    position: absolute;
+    top: 2px;
+    left: 15px;
+    transform: rotate(-540deg);
+    z-index: 10;
+}
+
+
+.hexa15 {
+	
+	    
+    background: black;
+    width: 173px;
+    height: 148px;
+    position: absolute;
+    top: 27px;
+    left: 27px;
+    transform: rotate(-540deg);
+    z-index: 10;
+    clip-path: polygon(4% 42%, 0% 51%, 4% 59%);
+}
+
+.hexa16 {
+	
+	    
+    background: black;
+    width: 173px;
+    height: 148px;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    transform: rotate(-720deg);
+    z-index: 10;
+    clip-path: polygon(4% 42%, 0% 51%, 4% 59%);
+}
+
+.hexa17 {
+	
+	    
+    background: black;
+    width: 173px;
+    height: 148px;
+    position: absolute;
+    top: 9px;
+    left: 6px;
+    transform: rotate(-658deg);
+    z-index: 10;
+    clip-path: polygon(4% 42%, 0% 51%, 4% 59%);
+}
+
+.hexa18 {
+	
+	    background: black;
+    width: 173px;
+    height: 148px;
+    position: absolute;
+    top: 42px;
+    left: 21px;
+    transform: rotate(-839deg);
+    z-index: 10;
+    clip-path: polygon(4% 42%, 0% 51%, 4% 59%);
+    z-index: 20;
+}
+
+.hexa19 {
+	
+	background: black;
+    width: 173px;
+    height: 148px;
+    position: absolute;
+    top: 42px;
+    left: 5px;
+    transform: rotate(-780deg);
+    z-index: 10;
+    clip-path: polygon(4% 43%, 0% 51%, 4% 59%);
+    z-index: 20;
+}
+
+.hexa20 {
+	
+	background: black;
+    width: 173px;
+    height: 148px;
+    position: absolute;
+    top: 10px;
+    left: 24px;
+    transform: rotate(-601deg);
+    z-index: 10;
+    clip-path: polygon(5% 42%, 0% 51%, 5% 62%);
+    z-index: 20;
+}
+
+.hexa21 {
+	
+	background: blue;
+    width: 173px;
+    height: 148px;
+    position: absolute;
+    top: 33px;
+    left: 28px;
+    transform: rotate(-719deg);
+    z-index: 10;
+    clip-path: polygon(44% 37%, 40% 46%, 44% 53%, 0 54%, 0% 38%);
+    z-index: 20;
+}
+
+
+
+
+
+
+
+

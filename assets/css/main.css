@@ -103,8 +103,10 @@ margin: 0;
 /*TypefaceFrame*/
 .typefaceFrame{
 	position: absolute;
+	opacity: 1;
 	
 }
+
 .Aa{
 	left: 10px;
 	top: 100px;
@@ -967,74 +969,7 @@ position: absolute;
 		position: absolute;
 	}
 
-	.orginalType-A {
-
-		border-bottom: 25px solid #ffffff;
-	    border-left: 15px solid transparent;
-	    border-right: 15px solid transparent;
-	    height: 5px;
-	    width: 35px;
-	    top: 17px;
-	    left: 17px;
-	    z-index: 19;
-	    position: absolute;
-
-
-}
-.orginalType-B {
-
-		border-bottom: 25px solid #ffffff;
-	    border-left: 15px solid transparent;
-	    border-right: 15px solid transparent;
-	    height: 0px;
-	    width: 35px;
-	    top: 60px;
-	    left: 17px;
-	    z-index: 19;
-	    position: absolute;
-	    transform: rotate(180deg);
-}
-
-.orginalType-C {
-
-		border-bottom: 25px solid #ffffff;
-	    border-left: 15px solid transparent;
-	    border-right: 15px solid transparent;
-	    height: 0px;
-	    width: 35px;
-	    top: 83px;
-	    left: 18px;
-	    z-index: 19;
-	    position: absolute;
-}
-
-.orginalType-D {
-
-		border-bottom: 25px solid #ffffff;
-	    border-left: 15px solid transparent;
-	    border-right: 15px solid transparent;
-	    height: 0px;
-	    width: 35px;
-	    top: 22px;
-	    left: 137px;
-	    z-index: 19;
-	    position: absolute;
-}
-
-.orginalType-E {
-
-		border-bottom: 25px solid #ffffff;
-	    border-left: 15px solid transparent;
-	    border-right: 15px solid transparent;
-	    height: 0px;
-	    width: 35px;
-	    top: 60px;
-	    left: 137px;
-	    z-index: 19;
-	    position: absolute;
-	    transform: rotate(180deg);
-}
-
+	
 
 
 
