@@ -20,12 +20,13 @@ margin: 0;
 /*Typeface*/
 .DanType{
 	position: absolute;
-	transform: rotate(0deg) translate(0px);	
+	transform: rotate(0deg);
 }
 
 .DanTypeA{
 	left: 0px;
 	top: 0px;
+	z-index: 21;
 }
 /*.DanTypeB{
 	left: 120px;
@@ -47,13 +48,68 @@ margin: 0;
 	left: 480px;
 	top: 0px;
 }
+.DanTypeG{
+	left: 600px;
+	top: 0px;
+}
+.DanTypeH{
+	left: 720px;
+	top: 0px;
+}
+.DanTypeI{
+	left: 840px;
+	top: 0px;
+}
+.DanTypeJ{
+	left: 960px;
+	top: 0px;
+}
+.DanTypeK{
+	left: 1080px;
+	top: 0px;
+}
+.DanTypeL{
+	left: 1200px;
+	top: 0px;
+}
+.DanTypeM{
+	left: 1320px;
+	top: 0px;
+}
+.DanTypeN{
+	left: 1440px;
+	top: 0px;
+}
+.DanTypeO{
+	left: 1560px;
+	top: 0px;
+}
+.DanTypeP{
+	left: 1680px;
+	top: 0px;
+}
+.DanTypeQ{
+	left: 1800px;
+	top: 0px;
+}
+.DanTypeR{
+	left: 1920px;
+	top: 0px;
+}
+
+
+
+
 /*TypefaceFrame*/
 .typefaceFrame{
 	position: absolute;
+	
 }
 .Aa{
 	left: 10px;
 	top: 100px;
+	
+
 }
 
 
@@ -63,17 +119,17 @@ margin: 0;
 	position: absolute;
 	top: -26px;
 	left: -213px;
-	transition: 1s;
+	/*transition: 1s;*/
 }
 
-.hexagroupTYPE:hover{
+/*.hexagroupTYPE:hover{
 	transform: rotate(0deg) translate(100px);	
-}
+}*/
 .hexagroupTYPE1{
 
 }
 
-	.TYPE1YP{
+	.TYPE1BP{
 		top: 30px;
 		left: 100px;
 		z-index: 19;
@@ -83,7 +139,7 @@ margin: 0;
 		left: 130px;
 		z-index: 10;
 	}
-	.TYPE1BP{
+	.TYPE1YP{
 		top: -74px;
 		left: 160px;
 		z-index: 9;
@@ -137,7 +193,7 @@ margin: 0;
 
 }
 
-	.TYPE4BKP{
+	.TYPE4BP{
 		top: -74px;
 		left: 160px;
 		z-index: 9;
@@ -148,7 +204,7 @@ margin: 0;
 		z-index: 19;
 		
 	}
-	.TYPE4BP{
+	.TYPE4YP{
 		top: -22px;
 		left: 130px;
 		z-index: 10;
@@ -176,6 +232,295 @@ margin: 0;
 		z-index: 10;
 		
 	}
+.hexagroupTYPE6{
+
+}
+
+	.TYPE6YP{
+		top: -74px;
+		left: 160px;
+		z-index: 9;
+	}
+	.TYPE6RP{
+		top: 30px;
+		left: 100px;
+		z-index: 19;
+		
+	}
+	.TYPE6BP{
+		top: -22px;
+		left: 130px;
+		z-index: 10;
+		
+	}	
+	
+.hexagroupTYPE7{
+
+}
+
+	.TYPE7BKP{
+		top: -74px;
+		left: 160px;
+		z-index: 9;
+	}
+	.TYPE7RP{
+		top: 30px;
+		left: 100px;
+		z-index: 19;
+		
+	}
+	.TYPE7BP{
+		top: -22px;
+		left: 130px;
+		z-index: 10;
+		
+	}	
+.hexagroupTYPE8{
+
+}
+
+	.TYPE8YP{
+		top: -74px;
+		left: 160px;
+		z-index: 9;
+	}
+	.TYPE8RP{
+		top: 30px;
+		left: 100px;
+		z-index: 19;
+		
+	}
+	.TYPE8BP{
+		top: -22px;
+		left: 130px;
+		z-index: 10;
+		
+	}
+
+.hexagroupTYPE9{
+
+}
+
+	.TYPE9BKP{
+		top: -74px;
+		left: 160px;
+		z-index: 9;
+	}
+	.TYPE9RP{
+		top: 30px;
+		left: 100px;
+		z-index: 19;
+		
+	}
+	.TYPE9BP{
+		top: -22px;
+		left: 130px;
+		z-index: 10;
+		
+	}
+
+.hexagroupTYPE10{
+
+}
+
+	.TYPE10YP{
+		top: -74px;
+		left: 160px;
+		z-index: 9;
+	}
+	.TYPE10RP{
+		top: 30px;
+		left: 100px;
+		z-index: 19;
+		
+	}
+	.TYPE10BP{
+		top: -22px;
+		left: 130px;
+		z-index: 10;
+		
+	}
+
+.hexagroupTYPE11{
+
+}
+
+	.TYPE11BKP{
+		top: -74px;
+		left: 160px;
+		z-index: 9;
+	}
+	.TYPE11RP{
+		top: 30px;
+		left: 100px;
+		z-index: 19;
+		
+	}
+	.TYPE11BP{
+		top: -22px;
+		left: 130px;
+		z-index: 10;
+		
+	}
+
+.hexagroupTYPE12{
+
+}
+
+	.TYPE12YP{
+		top: -74px;
+		left: 160px;
+		z-index: 9;
+	}
+	.TYPE12RP{
+		top: 30px;
+		left: 100px;
+		z-index: 19;
+		
+	}
+	.TYPE12BP{
+		top: -22px;
+		left: 130px;
+		z-index: 10;
+		
+	}		
+.hexagroupTYPE13{
+
+}
+
+	.TYPE13BKP{
+		top: -74px;
+		left: 160px;
+		z-index: 9;
+	}
+	.TYPE13RP{
+		top: 30px;
+		left: 100px;
+		z-index: 19;
+		
+	}
+	.TYPE13BP{
+		top: -22px;
+		left: 130px;
+		z-index: 10;
+		
+	}	
+
+.hexagroupTYPE14{
+
+}
+
+	.TYPE14YP{
+		top: -74px;
+		left: 160px;
+		z-index: 9;
+	}
+	.TYPE14RP{
+		top: 30px;
+		left: 100px;
+		z-index: 19;
+		
+	}
+	.TYPE14BP{
+		top: -22px;
+		left: 130px;
+		z-index: 10;
+		
+	}	
+
+.hexagroupTYPE15{
+
+}
+
+	.TYPE15BKP{
+		top: -74px;
+		left: 160px;
+		z-index: 9;
+	}
+	.TYPE15RP{
+		top: 30px;
+		left: 100px;
+		z-index: 19;
+		
+	}
+	.TYPE15BP{
+		top: -22px;
+		left: 130px;
+		z-index: 10;
+		
+	}	
+
+.hexagroupTYPE16{
+
+}
+
+	.TYPE16YP{
+		top: -74px;
+		left: 160px;
+		z-index: 9;
+	}
+	.TYPE16RP{
+		top: 30px;
+		left: 100px;
+		z-index: 19;
+		
+	}
+	.TYPE16BP{
+		top: -22px;
+		left: 130px;
+		z-index: 10;
+		
+	}	
+
+.hexagroupTYPE17{
+
+}
+
+	.TYPE17BKP{
+		top: -74px;
+		left: 160px;
+		z-index: 9;
+	}
+	.TYPE17RP{
+		top: 30px;
+		left: 100px;
+		z-index: 19;
+		
+	}
+	.TYPE17BP{
+		top: -22px;
+		left: 130px;
+		z-index: 10;
+		
+	}	
+
+.hexagroupTYPE18{
+
+}
+
+	.TYPE18YP{
+		top: -74px;
+		left: 160px;
+		z-index: 9;
+	}
+	.TYPE18RP{
+		top: 30px;
+		left: 100px;
+		z-index: 19;
+		
+	}
+	.TYPE18BP{
+		top: -22px;
+		left: 130px;
+		z-index: 10;
+		
+	}	
+
+
+
+
+		
+
 /*HEXATYPE END*/
 
 
