@@ -136,7 +136,7 @@ background: orange;
     height: 96px;
     position: absolute;
     clip-path: polygon(52% 7%, 78% 52%, 52% 99%, 0 102%);
-    top: 120px;
+    top: 119px;
     left: 116px;
     transform: rotate(61deg);
 
@@ -146,17 +146,17 @@ background: orange;
     width: 273px;
     height: 148px;
     position: absolute;
-    top: 110px;
-    left: -41px;
+    top: 112px;
+    left: -42px;
     transform: rotate(-270deg);
     clip-path: polygon(0 28%, 53% 30%, 53% 63%, 0 64%);
 }
 
 .hexa14 {
 	
-	    clip-path: polygon(65% 0, 35% 0, 50% 25%);
+	clip-path: polygon(66% 0, 35% 0, 50% 34%);
     background: blue;
-    width: 173px;
+    width: 172px;
     height: 148px;
     position: absolute;
     top: 2px;
@@ -257,17 +257,117 @@ background: orange;
     height: 148px;
     position: absolute;
     top: 33px;
-    left: 28px;
+    left: 31px;
     transform: rotate(-719deg);
     z-index: 10;
     clip-path: polygon(44% 37%, 40% 46%, 44% 53%, 0 54%, 0% 38%);
     z-index: 20;
 }
 
+.hexa22 {
+background: orange;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(51% 8%, 77% 49%, 49% 98%, -1% 100%);
+    top: 73px;
+    left: 84px;
+    transform: rotate(-58deg);
+}
+
+.hexa23 {
+background: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(50% 7%, 74% 50%, 47% 100%, 0 100%);
+    top: 0px;
+    left: 100px;
+}
 
 
+.hexa24 {
+background: pink;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(51% 8%, 77% 49%, 49% 98%, -1% 100%);
+    top: 73px;
+    left: 82px;
+    transform: rotate(-58deg);
+
+}
+
+.hexa25 {
+
+background: green;
+width: 96px;
+height: 96px;
+position: absolute;
+clip-path: polygon(52% 7%, 78% 52%, 51% 100%, 0 100%);
+top: 70px;
+left: 17px;
+transform: rotate(61deg);
+
+}
+
+.hexa26 {
+        background: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(50% 7%, 74% 50%, 47% 100%, 0 100%);
+    top: -2PX;
+    left: 101px;
+
+}
+
+.hexa27 {
+background: pink;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(51% 8%, 77% 49%, 49% 98%, -1% 100%);
+    top: 71px;
+    left: 86px;
+    transform: rotate(-58deg);
+
+}
+
+.hexa28 {
+	
+	    
+   background: black;
+    width: 173px;
+    height: 148px;
+    position: absolute;
+    top: 23px;
+    left: 101PX;
+    transform: rotate(-720deg);
+    z-index: 10;
+    clip-path: polygon(4% 42%, 0% 51%, 4% 59%);
+}
+
+.hexa29 {
+background: pink;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(51% 8%, 77% 49%, 50% 98%, 0 100%);
+    top: 27px;
+    left: 18px;
+    transform: rotate(123deg);
+}
+
+.hexa30 {
+background: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(50% 7%, 74% 50%, 47% 100%, 0 100%);
+    top: 100px;
+    left: 1px;
+    transform: rotate(180deg);
 
 
-
-
-
+}
