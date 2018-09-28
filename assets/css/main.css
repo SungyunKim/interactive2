@@ -3,15 +3,17 @@ body {
 margin: 0;	
 }
 
-		
 
+.copy{
+
+}
 
 
 .container{
 	left: 0;
 	top: 0;
-	width: 5000px;
-	height: 100vh;
+	width: 3000px;
+	height: 108px;
 /*	background: #2A9E77;*/
 	position: relative;
 }
@@ -24,7 +26,7 @@ margin: 0;
 }
 
 .DanTypeA{
-	left: 0px;
+	left: 1px;
 	top: 0px;
 	z-index: 21;
 }
