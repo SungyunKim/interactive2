@@ -371,3 +371,19 @@ background: red;
 
 
 }
+.hexa31 {
+background: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(49% 7%, 74% 50%, 47% 100%, 0 98%);
+    top: -21px;
+    left: 66px;
+    transform: rotate(62deg);
+
+
+
+
+
+
+

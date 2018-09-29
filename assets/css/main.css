@@ -12,7 +12,7 @@ margin: 0;
 .container{
 	left: 0;
 	top: 0;
-	width: 3000px;
+	width: 4000px;
 	height: 108px;
 /*	background: #2A9E77;*/
 	position: relative;
@@ -134,17 +134,17 @@ margin: 0;
 }
 
 	.TYPE1BP{
-		top: 30px;
-		left: 100px;
+		top:10px;
+		left: 111px;
 		z-index: 19;
 	}
 	.TYPE1RP{
-		top: -22px;
+		top: -23px;
 		left: 130px;
 		z-index: 10;
 	}
 	.TYPE1YP{
-		top: -74px;
+		top: -75px;
 		left: 160px;
 		z-index: 9;
 	}
@@ -181,8 +181,8 @@ margin: 0;
 		z-index: 9;
 	}
 	.TYPE3RP{
-		top: 30px;
-		left: 100px;
+		top: 10px;
+		left: 112px;
 		z-index: 19;
 		
 	}
@@ -538,7 +538,7 @@ margin: 0;
 	border-right: 30px solid #E5E243;
 	border-top: 52px solid transparent;
 	border-bottom: 52px solid transparent;
-	top: 99px;
+	top: 100px;
 	left: 113px;
 	z-index: 11;
 	position: absolute;

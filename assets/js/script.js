@@ -1,8 +1,26 @@
 $(document).ready(function(){
-    $(".container").clone().prependTo( ".copyA, .copyB, .copyC, .copyD");    
-    // for (i = 0; i <2; i++) { 
+    var target = "#DanCh"
+    //수량조정
+      for (var i = 1; i < 10; i++) {
+    //수량조정 end
+        var n = '.rows'+i
+
+        test = document.createElement("div")
+        document.body.appendChild(test);
+        test.setAttribute('class', 'rows'+i);
+
         
-    // }
+        $(target).clone().removeAttr('id').appendTo(n);
+
+        $(n).css({
+          "position": "absolute",
+          "z-index": 10-i,
+          // "left": 10*i+"px",
+          "top": 110*i+"px",
+          "left":60*i+"px",
+          // "opacity":0.8/i,
+        })
+      }
 
     $('#A').click(function(){
     	$('body').removeClass();
