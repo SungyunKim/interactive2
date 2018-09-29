@@ -39,63 +39,63 @@ margin: 0;
 	top: 0px;
 }
 .DanTypeD{
-	left: 240px;
+	left: 239px;
 	top: 0px;
 }
 .DanTypeE{
-	left: 360px;
+	left: 358px;
 	top: 0px;
 }
 .DanTypeF{
-	left: 480px;
+	left: 478px;
 	top: 0px;
 }
 .DanTypeG{
-	left: 600px;
+	left: 597px;
 	top: 0px;
 }
 .DanTypeH{
-	left: 720px;
+	left: 717px;
 	top: 0px;
 }
 .DanTypeI{
-	left: 840px;
+	left: 836px;
 	top: 0px;
 }
 .DanTypeJ{
-	left: 960px;
+	left: 956px;
 	top: 0px;
 }
 .DanTypeK{
-	left: 1080px;
+	left: 1075px;
 	top: 0px;
 }
 .DanTypeL{
-	left: 1200px;
+	left: 1195px;
 	top: 0px;
 }
 .DanTypeM{
-	left: 1320px;
+	left: 1315px;
 	top: 0px;
 }
 .DanTypeN{
-	left: 1440px;
+	left: 1435px;
 	top: 0px;
 }
 .DanTypeO{
-	left: 1560px;
+	left: 1555px;
 	top: 0px;
 }
 .DanTypeP{
-	left: 1680px;
+	left: 1675px;
 	top: 0px;
 }
 .DanTypeQ{
-	left: 1800px;
+	left: 1794px;
 	top: 0px;
 }
 .DanTypeR{
-	left: 1920px;
+	left: 1914px;
 	top: 0px;
 }
 
@@ -116,7 +116,31 @@ margin: 0;
 
 }
 
+.container1{
+	position: relative;
 
+}
+
+.container2{
+	position: relative;
+    left: 60px;
+    top: 104px;
+    z-index: -2;
+}
+
+.container3{
+	position: relative;
+    z-index: -3;
+    top: 208px;
+    left: 0px;
+}
+
+.container4{
+	position: relative;
+    z-index: -4;
+    top: 312px;
+    left: 60px;
+}
 /*HEXATYPE*/
 
 .hexagroupTYPE{
@@ -875,7 +899,7 @@ position: absolute;
 		border-top: 52px solid transparent;
 		border-bottom: 52px solid transparent;
 		top: 100px;
-		left: 113px;
+		left: 112px;
 		z-index: 11;
 		position: absolute;
 	}
@@ -886,7 +910,7 @@ position: absolute;
 		height: 104px;
 		background-color: #1A4492;
 		top: 100px;
-		left: 143px;
+		left: 142px;
 		position: absolute;
 		z-index: 12;
 
@@ -899,7 +923,7 @@ position: absolute;
 		border-bottom: 52px solid transparent;
 		z-index: 10;
 		top: 100px;
-		left: 203px;
+		left: 202px;
 		position: absolute;
 	}
 

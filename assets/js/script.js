@@ -1,7 +1,7 @@
 $(document).ready(function(){
     var target = "#DanCh"
     //수량조정
-      for (var i = 1; i < 10; i++) {
+      for (var i = 1; i < 1; i++) {
     //수량조정 end
         var n = '.rows'+i
 
@@ -16,8 +16,8 @@ $(document).ready(function(){
           "position": "absolute",
           "z-index": 10-i,
           // "left": 10*i+"px",
-          "top": 110*i+"px",
-          "left":60*i+"px",
+          "top": 403*i+"px",
+          "left":3*i+"px",
           // "opacity":0.8/i,
         })
       }
