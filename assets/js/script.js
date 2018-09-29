@@ -19,6 +19,7 @@ $(document).ready(function(){
           "top": 403*i+"px",
           "left":3*i+"px",
           // "opacity":0.8/i,
+
         })
       }
 
