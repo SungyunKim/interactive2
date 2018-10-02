@@ -1,13 +1,13 @@
 $(document).ready(function(){
     var target = "#DanCh"
     //수량조정
-      for (var i = 1; i < 1; i++) {
+      for (var i = 1; i < 2; i++) {
     //수량조정 end
-        var n = '.rows'+i
+        var n = '.groups'+i
 
         test = document.createElement("div")
         document.body.appendChild(test);
-        test.setAttribute('class', 'rows'+i);
+        test.setAttribute('class', 'groups'+i);
 
         
         $(target).clone().removeAttr('id').appendTo(n);
@@ -16,8 +16,8 @@ $(document).ready(function(){
           "position": "absolute",
           "z-index": 10-i,
           // "left": 10*i+"px",
-          "top": 403*i+"px",
-          "left":3*i+"px",
+          "top": 208+208*i+"px",
+          "left":0*i+"px",
           // "opacity":0.8/i,
 
         })

@@ -3,7 +3,7 @@ margin: 0;
 }
 
 .hexa1 {
-background: red;	
+background: black;	
 width: 100px;
 height: 100px;
 position: absolute;
@@ -13,7 +13,7 @@ left: 0px;
 
 }
 .hexa2 {
-background: green;
+background: black;
 width: 96px;
 height: 96px;
 position: absolute;
@@ -25,7 +25,7 @@ transform: rotate(61deg);
 }
 
 .hexa3 {
-background: red;
+background: black;
     width: 100px;
     height: 100px;
     position: absolute;
@@ -38,7 +38,7 @@ background: red;
 }
 
 .hexa4 {
-background: green;
+background: black;
     width: 96px;
     height: 96px;
     position: absolute;
@@ -50,7 +50,7 @@ background: green;
 }
 
 .hexa5 {
-background: pink;
+background: black;
     width: 100px;
     height: 100px;
     position: absolute;
@@ -61,7 +61,7 @@ background: pink;
 }
 
 .hexa6 {
-background: pink;
+background: black;
     width: 100px;
     height: 100px;
     position: absolute;
@@ -73,7 +73,7 @@ background: pink;
 }
 
 .hexa7 {
-    background: purple;
+    background: black;
     width: 186px;
     height: 73px;
     position: absolute;
@@ -84,7 +84,7 @@ background: pink;
 }
 
 .hexa8 {
-    background: purple;
+    background: black;
     width: 196px;
     height: 75px;
     position: absolute;
@@ -96,7 +96,7 @@ background: pink;
 }
 
 .hexa9 {
-         background: purple;
+         background: black;
     width: 196px;
     height: 77px;
     position: absolute;
@@ -107,7 +107,7 @@ background: pink;
 }
 
 .hexa10 {
-    background: blue;
+    background: black;
     width: 173px;
     height: 148px;
     position: absolute;
@@ -120,7 +120,7 @@ background: pink;
 .hexa11 {
 	
 	clip-path: polygon(65% 0, 35% 0, 50% 25%);
-    background: blue;
+    background: black;
     width: 173px;
     height: 148px;
     position: absolute;
@@ -131,7 +131,7 @@ background: pink;
 }
 
 .hexa12 {
-background: orange;
+background: black;
     width: 96px;
     height: 96px;
     position: absolute;
@@ -142,7 +142,7 @@ background: orange;
 
 }
 .hexa13{
-    background: yellow;
+    background: black;
     width: 273px;
     height: 148px;
     position: absolute;
@@ -155,7 +155,7 @@ background: orange;
 .hexa14 {
 	
 	clip-path: polygon(66% 0, 35% 0, 50% 34%);
-    background: blue;
+    background: black;
     width: 172px;
     height: 148px;
     position: absolute;
@@ -252,7 +252,7 @@ background: orange;
 
 .hexa21 {
 	
-	background: blue;
+	background: black;
     width: 173px;
     height: 148px;
     position: absolute;
@@ -265,7 +265,7 @@ background: orange;
 }
 
 .hexa22 {
-background: orange;
+background: black;
     width: 100px;
     height: 100px;
     position: absolute;
@@ -276,7 +276,7 @@ background: orange;
 }
 
 .hexa23 {
-background: red;
+background: black;
     width: 100px;
     height: 100px;
     position: absolute;
@@ -287,7 +287,7 @@ background: red;
 
 
 .hexa24 {
-background: pink;
+background: black;
     width: 100px;
     height: 100px;
     position: absolute;
@@ -300,7 +300,7 @@ background: pink;
 
 .hexa25 {
 
-background: green;
+background: black;
 width: 96px;
 height: 96px;
 position: absolute;
@@ -312,7 +312,7 @@ transform: rotate(61deg);
 }
 
 .hexa26 {
-        background: red;
+        background: black;
     width: 100px;
     height: 100px;
     position: absolute;
@@ -323,7 +323,7 @@ transform: rotate(61deg);
 }
 
 .hexa27 {
-background: pink;
+background: black;
     width: 100px;
     height: 100px;
     position: absolute;
@@ -349,7 +349,7 @@ background: pink;
 }
 
 .hexa29 {
-background: pink;
+background: black;
     width: 100px;
     height: 100px;
     position: absolute;
@@ -360,7 +360,7 @@ background: pink;
 }
 
 .hexa30 {
-background: red;
+background: black;
     width: 100px;
     height: 100px;
     position: absolute;
@@ -372,18 +372,54 @@ background: red;
 
 }
 .hexa31 {
-background: red;
+    background: black;
     width: 100px;
     height: 100px;
     position: absolute;
-    clip-path: polygon(49% 7%, 74% 50%, 47% 100%, 0 98%);
-    top: -21px;
-    left: 66px;
-    transform: rotate(62deg);
+    clip-path: polygon(49% 8%, 74% 49%, 47% 100%, 0 99%);
+    top: 21px;
+    left: 36px;
+    transform: rotate(-118deg);
+}
+
+.hexa32 {
+    background: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(52% 8%, 75% 50%, 47% 100%, 0 100%);
+    top: 1px;
+    left: 106px;
+    transform: rotate(183deg);  
 
 
+}
+
+.hexa33 {
+    background: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(51% 8%, 77% 49%, 49% 98%, -2% 99%);
+    top: -26px;
+    left: -13px;
+    transform: rotate(-58deg);
+
+}
 
 
+.hexa34 {
+background: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(50% 7%, 74% 50%, 47% 100%, 0 100%);
+    top: 100px;
+    left: 0px;
+    transform: rotate(180deg);
+
+
+}
 
 
 

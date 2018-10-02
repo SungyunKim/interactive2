@@ -9,13 +9,476 @@ margin: 0;
 }
 
 
-.container{
+.TypefaceOriginalFrameA {
+	z-index: 21;
+	position: absolute;
+	top: 80px;
+	left: 10px;
+	transform: scale(0.58);
+}
+
+/*.container{
+	width: calc(120*18px);
+	height: 108px;
+	background: #2A9E77;
+	position: relative;
 	left: 0;
 	top: 0;
-	width: 4194px;
-	height: 108px;
-/*	background: #2A9E77;*/
-	position: relative;
+	margin-left: -10px;
+}*/
+/* 글자체 올리기*/
+
+/*단청 그룹 행*/
+.row0{
+	position: absolute;
+	
+}
+.row1 {
+	z-index: 12;
+}
+.row2 {
+	top:104px;
+	left: -60px;
+	z-index: 10;
+}
+.TypefaceMain .row1{
+	z-index: 20;
+}
+.TypefaceMain .row2{
+	z-index: 19;
+}
+/*단청 그룹 행 end*/
+
+/*hover function*/
+.TypefaceFrame{
+	
+	opacity: 0;
+	transition: 400ms all;
+	transform: translate(1px,-1px) scale(0.57);
+}
+.DanType:hover .TypefaceFrame{
+	opacity: 1;
+	transform: scale(0.58);
+}
+/*hover function end*/
+
+.hexa1 {
+background: black;	
+width: 100px;
+height: 100px;
+position: absolute;
+clip-path: polygon(50% 7%, 74% 50%, 47% 100%, 0 100%);
+top: 0px;
+left: 0px;
+
+}
+.hexa2 {
+background: black;
+width: 96px;
+height: 96px;
+position: absolute;
+clip-path: polygon(52% 7%, 78% 52%, 51% 100%, 0 100%);
+top: -22px;
+left: 67px;
+transform: rotate(61deg);
+
+}
+
+.hexa3 {
+background: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(50% 7%, 74% 50%, 47% 100%, 0 100%);
+    top: 100px;
+    left: 100px;
+    transform: rotate(180deg);
+
+
+}
+
+.hexa4 {
+background: black;
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    clip-path: polygon(52% 9%, 78% 52%, 51% 100%, 0 99%);
+    top: 126px;
+    left: 37px;
+    transform: rotate(-120deg);
+
+}
+
+.hexa5 {
+background: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(51% 8%, 77% 49%, 50% 98%, 0 100%);
+    top: 27px;
+    left: 116px;
+    transform: rotate(123deg);
+}
+
+.hexa6 {
+background: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(51% 8%, 77% 49%, 49% 98%, -1% 100%);
+    top: 73px;
+    left: -16px;
+    transform: rotate(-58deg);
+
+}
+
+.hexa7 {
+    background: black;
+    width: 186px;
+    height: 73px;
+    position: absolute;
+    top: 61px;
+    left: 7px;
+    transform: rotate(-180deg);
+    clip-path: polygon(0 30%, 100% 30%, 100% 63%, 0 64%);
+}
+
+.hexa8 {
+    background: black;
+    width: 196px;
+    height: 75px;
+    position: absolute;
+    top: 63px;
+    left: 0px;
+    transform: rotate(-298deg);
+    clip-path: polygon(0 30%, 100% 30%, 100% 63%, 0 64%);
+    z-index: 20;
+}
+
+.hexa9 {
+         background: black;
+    width: 196px;
+    height: 77px;
+    position: absolute;
+    top: 61px;
+    left: 0px;
+    transform: rotate(-242deg);
+    clip-path: polygon(0 30%, 100% 30%, 100% 63%, 0 64%);
+}
+
+.hexa10 {
+    background: black;
+    width: 173px;
+    height: 148px;
+    position: absolute;
+    top: 113px;
+    left: 9px;
+    transform: rotate(-270deg);
+    clip-path: polygon(0 28%, 53% 30%, 53% 63%, 0 64%);
+}
+
+.hexa11 {
+	
+	clip-path: polygon(65% 0, 35% 0, 50% 25%);
+    background: black;
+    width: 173px;
+    height: 148px;
+    position: absolute;
+    top: 50px;
+    left: 14px;
+    transform: rotate(-360deg);
+    z-index: 10;
+}
+
+.hexa12 {
+background: black;
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    clip-path: polygon(52% 7%, 78% 52%, 52% 99%, 0 102%);
+    top: 119px;
+    left: 116px;
+    transform: rotate(61deg);
+
+}
+.hexa13{
+    background: black;
+    width: 273px;
+    height: 148px;
+    position: absolute;
+    top: 112px;
+    left: -42px;
+    transform: rotate(-270deg);
+    clip-path: polygon(0 28%, 53% 30%, 53% 63%, 0 64%);
+}
+
+.hexa14 {
+	
+	clip-path: polygon(66% 0, 35% 0, 50% 34%);
+    background: black;
+    width: 172px;
+    height: 148px;
+    position: absolute;
+    top: 2px;
+    left: 15px;
+    transform: rotate(-540deg);
+    z-index: 10;
+}
+
+
+.hexa15 {
+	
+	    
+    background: black;
+    width: 173px;
+    height: 148px;
+    position: absolute;
+    top: 27px;
+    left: 27px;
+    transform: rotate(-540deg);
+    z-index: 10;
+    clip-path: polygon(4% 42%, 0% 51%, 4% 59%);
+}
+
+.hexa16 {
+	
+	    
+    background: black;
+    width: 173px;
+    height: 148px;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    transform: rotate(-720deg);
+    z-index: 10;
+    clip-path: polygon(4% 42%, 0% 51%, 4% 59%);
+}
+
+.hexa17 {
+	
+	    
+    background: black;
+    width: 173px;
+    height: 148px;
+    position: absolute;
+    top: 9px;
+    left: 6px;
+    transform: rotate(-658deg);
+    z-index: 10;
+    clip-path: polygon(4% 42%, 0% 51%, 4% 59%);
+}
+
+.hexa18 {
+	
+	    background: black;
+    width: 173px;
+    height: 148px;
+    position: absolute;
+    top: 42px;
+    left: 21px;
+    transform: rotate(-839deg);
+    z-index: 10;
+    clip-path: polygon(4% 42%, 0% 51%, 4% 59%);
+    z-index: 20;
+}
+
+.hexa19 {
+	
+	background: black;
+    width: 173px;
+    height: 148px;
+    position: absolute;
+    top: 42px;
+    left: 5px;
+    transform: rotate(-780deg);
+    z-index: 10;
+    clip-path: polygon(4% 43%, 0% 51%, 4% 59%);
+    z-index: 20;
+}
+
+.hexa20 {
+	
+	background: black;
+    width: 173px;
+    height: 148px;
+    position: absolute;
+    top: 10px;
+    left: 24px;
+    transform: rotate(-601deg);
+    z-index: 10;
+    clip-path: polygon(5% 42%, 0% 51%, 5% 62%);
+    z-index: 20;
+}
+
+.hexa21 {
+	
+	background: black;
+    width: 173px;
+    height: 148px;
+    position: absolute;
+    top: 33px;
+    left: 31px;
+    transform: rotate(-719deg);
+    z-index: 10;
+    clip-path: polygon(44% 37%, 40% 46%, 44% 53%, 0 54%, 0% 38%);
+    z-index: 20;
+}
+
+.hexa22 {
+background: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(51% 8%, 77% 49%, 49% 98%, -1% 100%);
+    top: 73px;
+    left: 84px;
+    transform: rotate(-58deg);
+}
+
+.hexa23 {
+background: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(50% 7%, 74% 50%, 47% 100%, 0 100%);
+    top: 0px;
+    left: 100px;
+}
+
+
+.hexa24 {
+background: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(51% 8%, 77% 49%, 49% 98%, -1% 100%);
+    top: 73px;
+    left: 82px;
+    transform: rotate(-58deg);
+
+}
+
+.hexa25 {
+
+background: black;
+width: 96px;
+height: 96px;
+position: absolute;
+clip-path: polygon(52% 7%, 78% 52%, 51% 100%, 0 100%);
+top: 70px;
+left: 17px;
+transform: rotate(61deg);
+
+}
+
+.hexa26 {
+        background: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(50% 7%, 74% 50%, 47% 100%, 0 100%);
+    top: -2PX;
+    left: 101px;
+
+}
+
+.hexa27 {
+background: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(51% 8%, 77% 49%, 49% 98%, -1% 100%);
+    top: 71px;
+    left: 86px;
+    transform: rotate(-58deg);
+
+}
+
+.hexa28 {
+	
+	    
+   background: black;
+    width: 173px;
+    height: 148px;
+    position: absolute;
+    top: 23px;
+    left: 101PX;
+    transform: rotate(-720deg);
+    z-index: 10;
+    clip-path: polygon(4% 42%, 0% 51%, 4% 59%);
+}
+
+.hexa29 {
+background: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(51% 8%, 77% 49%, 50% 98%, 0 100%);
+    top: 27px;
+    left: 18px;
+    transform: rotate(123deg);
+}
+
+.hexa30 {
+background: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(50% 7%, 74% 50%, 47% 100%, 0 100%);
+    top: 100px;
+    left: 1px;
+    transform: rotate(180deg);
+
+
+}
+.hexa31 {
+    background: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(49% 8%, 74% 49%, 47% 100%, 0 99%);
+    top: 21px;
+    left: 36px;
+    transform: rotate(-118deg);
+}
+
+.hexa32 {
+    background: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(52% 8%, 75% 50%, 47% 100%, 0 100%);
+    top: 1px;
+    left: 106px;
+    transform: rotate(183deg);  
+
+
+}
+
+.hexa33 {
+    background: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(51% 8%, 77% 49%, 49% 98%, -2% 99%);
+    top: -26px;
+    left: -13px;
+    transform: rotate(-58deg);
+
+}
+
+
+.hexa34 {
+background: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(50% 7%, 74% 50%, 47% 100%, 0 100%);
+    top: 100px;
+    left: 0px;
+    transform: rotate(180deg);
+
+
 }
 
 
@@ -30,72 +493,72 @@ margin: 0;
 	top: 0px;
 	z-index: 21;
 }
-/*.DanTypeB{
-	left: 120px;
+.DanTypeB{
+	left: calc(120*1px);
 	top: 0px;
-}*/
+}
 .DanTypeC{
-	left: 120px;
+	left: calc(120*2px);
 	top: 0px;
 }
 .DanTypeD{
-	left: 239px;
+	left: calc(120*3px);
 	top: 0px;
 }
 .DanTypeE{
-	left: 358px;
+	left: calc(120*4px);
 	top: 0px;
 }
 .DanTypeF{
-	left: 478px;
+	left: calc(120*5px);
 	top: 0px;
 }
 .DanTypeG{
-	left: 597px;
+	left: calc(120*6px);
 	top: 0px;
 }
 .DanTypeH{
-	left: 717px;
+	left: calc(120*7px);
 	top: 0px;
 }
 .DanTypeI{
-	left: 836px;
+	left: calc(120*8px);
 	top: 0px;
 }
 .DanTypeJ{
-	left: 956px;
+	left: calc(120*9px);
 	top: 0px;
 }
 .DanTypeK{
-	left: 1075px;
+	left: calc(120*10px);
 	top: 0px;
 }
 .DanTypeL{
-	left: 1195px;
+	left: calc(120*11px);
 	top: 0px;
 }
 .DanTypeM{
-	left: 1315px;
+	left: calc(120*12px);
 	top: 0px;
 }
 .DanTypeN{
-	left: 1435px;
+	left: calc(120*13px);
 	top: 0px;
 }
 .DanTypeO{
-	left: 1555px;
+	left: calc(120*14px);
 	top: 0px;
 }
 .DanTypeP{
-	left: 1675px;
+	left: calc(120*15px);
 	top: 0px;
 }
 .DanTypeQ{
-	left: 1794px;
+	left: calc(120*16px);
 	top: 0px;
 }
 .DanTypeR{
-	left: 1914px;
+	left: calc(120*17px);
 	top: 0px;
 }
 
@@ -125,31 +588,6 @@ margin: 0;
 	margin-bottom:-96px;
 }
 
-.container1{
-	
-
-}
-
-.container2{
-	
-    /*left: 60px;
-    top: 104px;*/
-    z-index: -2;
-}
-
-.container3{
-	margin-left: 60px;
-    z-index: -3;
-    /*top: 208px;
-    left: 0px;*/
-}
-
-.container4{
-	
-    z-index: -4;
- /*   top: 312px;
-    left: 60px;*/
-}
 /*HEXATYPE*/
 
 .hexagroupTYPE{
