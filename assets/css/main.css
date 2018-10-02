@@ -1,6 +1,8 @@
 
 body {
 margin: 0;	
+
+font-family: 'Space Mono', monospace;
 }
 
 
@@ -9,14 +11,150 @@ margin: 0;
 }
 
 
+
+
 .TypefaceOriginalFrameA {
 	z-index: 21;
 	position: absolute;
 	top: 80px;
-	left: 10px;
-	transform: scale(0.58);
+	left: 15px;
+	transform: scale(0.57);
 }
 
+.TypefaceOriginalFrameB {
+	z-index: 21;
+	position: absolute;
+	top: 103px;
+	left: 226px;
+	transform: scale(0.56);
+}
+
+.TypefaceOriginalFrameC {
+	z-index: 21;
+	position: absolute;
+	top: 100px;
+	left: 226px;
+	transform: scale(0.56);
+}
+.TypefaceOriginalFrameD {
+	z-index: 21;
+	position: absolute;
+	top: 100px;
+	left: 226px;
+	transform: scale(0.56);
+}
+.TypefaceOriginalFrameE {
+	z-index: 21;
+	position: absolute;
+	top: 100px;
+	left: 226px;
+	transform: scale(0.56);
+}
+.TypefaceOriginalFrameF {
+	z-index: 21;
+	position: absolute;
+	top: 100px;
+	left: 226px;
+	transform: scale(0.56);
+}
+.TypefaceOriginalFrameG {
+	z-index: 21;
+	position: absolute;
+	top: 100px;
+	left: 226px;
+	transform: scale(0.56);
+}
+.TypefaceOriginalFrameH {
+	z-index: 21;
+	position: absolute;
+	top: 100px;
+	left: 226px;
+	transform: scale(0.56);
+}
+.TypefaceOriginalFrameI {
+	z-index: 21;
+	position: absolute;
+	top: 100px;
+	left: 226px;
+	transform: scale(0.56);
+}
+.TypefaceOriginalFrameJ {
+	z-index: 21;
+	position: absolute;
+	top: 100px;
+	left: 226px;
+	transform: scale(0.56);
+}
+.TypefaceOriginalFrameK {
+	z-index: 21;
+	position: absolute;
+	top: 100px;
+	left: 226px;
+	transform: scale(0.56);
+}
+.TypefaceOriginalFrameL {
+	z-index: 21;
+	position: absolute;
+	top: 100px;
+	left: 226px;
+	transform: scale(0.56);
+}
+.TypefaceOriginalFrameM {
+	z-index: 21;
+	position: absolute;
+	top: 100px;
+	left: 226px;
+	transform: scale(0.56);
+}
+.TypefaceOriginalFrameN {
+	z-index: 21;
+	position: absolute;
+	top: 100px;
+	left: 226px;
+	transform: scale(0.56);
+}
+.TypefaceOriginalFrameO {
+	z-index: 21;
+	position: absolute;
+	top: 100px;
+	left: 226px;
+	transform: scale(0.56);
+}
+.TypefaceOriginalFrameP {
+	z-index: 21;
+	position: absolute;
+	top: 100px;
+	left: 226px;
+	transform: scale(0.56);
+}
+.TypefaceOriginalFrameQ {
+	z-index: 21;
+	position: absolute;
+	top: 100px;
+	left: 226px;
+	transform: scale(0.56);
+}
+.TypefaceOriginalFrameA2 {
+	z-index: 21;
+	position: absolute;
+	top: 106px;
+    left: 347px;
+	transform: scale(0.56);
+}
+.TypefaceOriginalFrameB2 {
+	z-index: 21;
+	position: absolute;
+	top: 106px;
+    left: 360px;
+	transform: scale(0.56);
+}
+.TypefaceOriginalFrameC2 {
+	z-index: 21;
+	position: absolute;
+	top: 106px;
+    left: 360px;
+	transform: scale(0.56);
+}
 /*.container{
 	width: calc(120*18px);
 	height: 108px;
@@ -63,33 +201,33 @@ margin: 0;
 /*hover function end*/
 
 .hexa1 {
-background: black;	
-width: 100px;
-height: 100px;
-position: absolute;
-clip-path: polygon(50% 7%, 74% 50%, 47% 100%, 0 100%);
-top: 0px;
-left: 0px;
+    background: #000000;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(54% 8%, 79% 51%, 51% 100%, 0 100%);
+    top: -2px;
+    left: -6px;
 
 }
 .hexa2 {
-background: black;
-width: 96px;
-height: 96px;
-position: absolute;
-clip-path: polygon(52% 7%, 78% 52%, 51% 100%, 0 100%);
-top: -22px;
-left: 67px;
-transform: rotate(61deg);
+background: #000000;
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    clip-path: polygon(53% 5%, 80% 50%, 52% 100%, 0% 101%);
+    top: -23px;
+    left: 65px;
+    transform: rotate(61deg);
 
 }
 
 .hexa3 {
-background: black;
+    background: #000000;
     width: 100px;
     height: 100px;
     position: absolute;
-    clip-path: polygon(50% 7%, 74% 50%, 47% 100%, 0 100%);
+    clip-path: polygon(50% 14%, 74% 50%, 47% 100%, -3% 104%);
     top: 100px;
     left: 100px;
     transform: rotate(180deg);
@@ -99,48 +237,48 @@ background: black;
 
 .hexa4 {
 background: black;
-    width: 96px;
+    width: 95px;
     height: 96px;
     position: absolute;
-    clip-path: polygon(52% 9%, 78% 52%, 51% 100%, 0 99%);
+    clip-path: polygon(55% 6%, 79% 52%, 51% 100%, 0 100%);
     top: 126px;
-    left: 37px;
+    left: 39px;
     transform: rotate(-120deg);
 
 }
 
 .hexa5 {
-background: black;
+    background: #000000;
     width: 100px;
     height: 100px;
     position: absolute;
-    clip-path: polygon(51% 8%, 77% 49%, 50% 98%, 0 100%);
+    clip-path: polygon(51% 7%, 77% 49%, 50% 98%, 0 100%);
     top: 27px;
     left: 116px;
     transform: rotate(123deg);
 }
 
 .hexa6 {
-background: black;
+    background: #000000;
     width: 100px;
     height: 100px;
     position: absolute;
-    clip-path: polygon(51% 8%, 77% 49%, 49% 98%, -1% 100%);
+    clip-path: polygon(52% 4%, 77% 49%, 47% 97%, 3% 95%);
     top: 73px;
-    left: -16px;
-    transform: rotate(-58deg);
+    left: -17px;
+    transform: rotate(-59deg);
 
 }
 
 .hexa7 {
-    background: black;
-    width: 186px;
+    background: #000000;
+    width: 192px;
     height: 73px;
     position: absolute;
     top: 61px;
-    left: 7px;
+    left: 1px;
     transform: rotate(-180deg);
-    clip-path: polygon(0 30%, 100% 30%, 100% 63%, 0 64%);
+    clip-path: polygon(0 30%, 100% 30%, 100% 63%, 0 64%);	
 }
 
 .hexa8 {
@@ -229,12 +367,12 @@ background: black;
 .hexa15 {
 	
 	    
-    background: black;
+    background: #000000;
     width: 173px;
     height: 148px;
     position: absolute;
     top: 27px;
-    left: 27px;
+    left: 25px;
     transform: rotate(-540deg);
     z-index: 10;
     clip-path: polygon(4% 42%, 0% 51%, 4% 59%);
@@ -243,7 +381,7 @@ background: black;
 .hexa16 {
 	
 	    
-    background: black;
+    background: #000000;
     width: 173px;
     height: 148px;
     position: absolute;
@@ -257,7 +395,7 @@ background: black;
 .hexa17 {
 	
 	    
-    background: black;
+    background: #000000;
     width: 173px;
     height: 148px;
     position: absolute;
@@ -288,8 +426,8 @@ background: black;
     width: 173px;
     height: 148px;
     position: absolute;
-    top: 42px;
-    left: 5px;
+    top: 41px;
+    left: 4px;
     transform: rotate(-780deg);
     z-index: 10;
     clip-path: polygon(4% 43%, 0% 51%, 4% 59%);
@@ -298,7 +436,7 @@ background: black;
 
 .hexa20 {
 	
-	background: black;
+	background: #000000;
     width: 173px;
     height: 148px;
     position: absolute;
@@ -1196,7 +1334,7 @@ position: absolute;
 
 	.hexagon-7{
 		float: left;
-		border-right: 30px solid #67B032;
+		border-right: 30px solid #ffffff;
 		border-top: 52px solid transparent;
 		border-bottom: 52px solid transparent;
 		top: 100px;
@@ -1235,7 +1373,7 @@ position: absolute;
 }
 	.hexagon-1{
 		float: left;
-		border-right: 30px solid #1A4492;
+		border-right: 30px solid #ffffff;
 		border-top: 52px solid transparent;
 		border-bottom: 52px solid transparent;
 		top: 100px;
