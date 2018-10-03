@@ -29,6 +29,14 @@ font-family: 'Space Mono', monospace;
 	transform: scale(0.56);
 }
 
+.TypefaceOriginalFrameB3{
+	z-index: 23;
+
+	position: absolute;
+	top: 83px;
+	left: 15px;
+}
+
 .TypefaceOriginalFrameC {
 	z-index: 21;
 	position: absolute;
