@@ -205,6 +205,8 @@ font-family: 'Space Mono', monospace;
 .DanType:hover .TypefaceFrame{
 	opacity: 1;
 	transform: scale(0.58);
+	z-index: 100000000;
+	position: absolute;
 }
 /*hover function end*/
 
@@ -625,6 +627,16 @@ background: black;
     transform: rotate(180deg);
 
 
+}
+.hexa35 {
+    background: black;
+    width: 95px;
+    height: 96px;
+    position: absolute;
+    clip-path: polygon(55% 6%, 79% 52%, 51% 100%, 0 100%);
+    top: 105px;
+    left: 39px;
+    transform: rotate(-120deg);
 }
 
 

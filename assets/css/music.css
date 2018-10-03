@@ -3,15 +3,23 @@ margin: 0;
 
 }
 
-.DanType:hover .TYPE3BKP{
-	opacity: 0;
-	transition: 400ms all;
-	transform: translate(-1px,1px) scale(0.3);
+.TYPE3BKP:hover {
+	opacity: 1;
+	transition: 500ms all;
+	transform: translate(-1px,1px) scale(0.5);
 }
-.stronghexagroupTYPE1 .TYPE1BP{
-	opacity: 0;
-	transition: 400ms all;
-	transform: translate(-1px,1px) scale(0.7);
+.TYPE31BP:hover {
+	opacity: 1;
+	transition: 500ms all;
+	transform: translate(-1px,1px) scale(0.9);
+}
+
+.TYPE1BP:hover {
+	opacity: 1;
+	background: red;	
+	transition: 500ms all;
+	transform: translate(-1px,1px) scale(0.9);
+
 }
 
 
@@ -59,6 +67,9 @@ margin: 0;
 
 .hexagongroupRed {
 position: absolute;
+top: 500px;
+left: 200px;
+
 
 }
 	.hexagon-13{
@@ -189,6 +200,7 @@ position: absolute;
 		border-bottom: 52px solid transparent;
 		top: 100px;
 		left: 113px;
+
 		z-index: 11;
 		position: absolute;
 	}
