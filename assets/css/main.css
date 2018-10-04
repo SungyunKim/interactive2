@@ -142,27 +142,28 @@ font-family: 'Space Mono', monospace;
 	left: 226px;
 	transform: scale(0.56);
 }
-.TypefaceOriginalFrameA2 {
+.TypefaceOriginalFrameR {
 	z-index: 21;
 	position: absolute;
 	top: 106px;
-    left: 347px;
+    left: 226px;
 	transform: scale(0.56);
 }
-.TypefaceOriginalFrameB2 {
+.TypefaceOriginalFrameS {
 	z-index: 21;
 	position: absolute;
 	top: 106px;
-    left: 360px;
+    left: 226px;
 	transform: scale(0.56);
 }
-.TypefaceOriginalFrameC2 {
+.TypefaceOriginalFrameT {
 	z-index: 21;
 	position: absolute;
 	top: 106px;
-    left: 360px;
+    left: 226px;
 	transform: scale(0.56);
 }
+
 /*.container{
 	width: calc(120*18px);
 	height: 108px;
@@ -205,7 +206,7 @@ font-family: 'Space Mono', monospace;
 .DanType:hover .TypefaceFrame{
 	opacity: 1;
 	transform: scale(0.58);
-	z-index: 100000000;
+	z-index: 1000;
 	position: absolute;
 }
 /*hover function end*/
