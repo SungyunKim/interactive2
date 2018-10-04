@@ -283,13 +283,13 @@ background: black;
 
 .hexa7 {
     background: #000000;
-    width: 192px;
+    width: 188px;
     height: 73px;
     position: absolute;
     top: 61px;
-    left: 1px;
+    left: 3px;
     transform: rotate(-180deg);
-    clip-path: polygon(0 30%, 100% 30%, 100% 63%, 0 64%);	
+    clip-path: polygon(0 30%, 100% 30%, 100% 63%, 0 64%);
 }
 
 .hexa8 {
@@ -377,16 +377,15 @@ background: black;
 
 .hexa15 {
 	
-	    
-    background: #000000;
+	background: #000000;
     width: 173px;
     height: 148px;
     position: absolute;
-    top: 27px;
-    left: 25px;
+    top: 31px;
+    left: 29px;
     transform: rotate(-540deg);
     z-index: 10;
-    clip-path: polygon(4% 42%, 0% 51%, 4% 59%);
+    clip-path: polygon(6% 39%, 0% 51%, 8% 67%);
 }
 
 .hexa16 {
@@ -451,8 +450,8 @@ background: black;
     width: 173px;
     height: 148px;
     position: absolute;
-    top: 10px;
-    left: 24px;
+    top: 15px;
+    left: 22px;
     transform: rotate(-601deg);
     z-index: 10;
     clip-path: polygon(5% 42%, 0% 51%, 5% 62%);
@@ -634,13 +633,51 @@ background: black;
     width: 95px;
     height: 96px;
     position: absolute;
-    clip-path: polygon(55% 6%, 79% 52%, 51% 100%, 0 100%);
-    top: 105px;
+    clip-path: polygon(55% 7%, 81% 49%, 51% 100%, 0 101%);
+    top: 127px;
     left: 39px;
     transform: rotate(-120deg);
 }
-
-
+.hexa36{
+background: #000000;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(52% 4%, 77% 49%, 47% 97%, 0% 98%);
+    top: 74px;
+    left: -17px;
+    transform: rotate(-59deg);
+}
+.hexa37{
+background: #000000;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(49% 14%, 76% 50%, 47% 100%, -5% 107%);
+    top: 106px;
+    left: 100px;
+    transform: rotate(180deg);
+}
+.hexa38{
+    background: #000000;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(50% 5%, 77% 49%, 50% 99%, 0 104%);
+    top: 27px;
+    left: 116px;
+    transform: rotate(123deg);
+} 
+.hexa39{
+background: #000000;
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    clip-path: polygon(58% 8%, 80% 50%, 52% 100%, 6% 101%);
+    top: -23px;
+    left: 65px;
+    transform: rotate(61deg);
+}
 /*Typeface*/
 .DanType{
 	position: absolute;
