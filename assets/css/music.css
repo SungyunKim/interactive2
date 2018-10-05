@@ -16,7 +16,7 @@ margin: 0;
 }
 
 .pulsemv1{
-	animation: nudge 4s linear infinite alternate;	
+	animation: nudge 7.5s linear infinite alternate;	
 }
 
 /*.TYPE3RP {
@@ -61,11 +61,33 @@ margin: 0;
 
 
 .pulsemv3{
-	animation: nudge 7s linear infinite alternate;	
+	animation: nudge 10s linear infinite alternate;	
 }
 
 .pulsemv4{
+	animation: nudge 4s linear infinite alternate;	
+}
+
+.pulsemv5{
+	animation: nudge 6s linear infinite alternate;	
+}
+.pulsemv6{
+	animation: nudge 8s linear infinite alternate;	
+}
+
+.pulsemv7{
+	animation: nudge 9s linear infinite alternate;	
+}
+
+.pulsemv8{
 	animation: nudge 14s linear infinite alternate;	
+}
+.pulsemv9{
+	animation: nudge 11s linear infinite alternate;	
+}
+
+.pulsemv10{
+	animation: nudge 3s linear infinite alternate;	
 }
 /*.TYPE1BP {
   
@@ -146,11 +168,11 @@ left: 62px;
 }
 	.hexagon-13{
 	    float: left;
-    border-right: 30px solid #D8221D;
-    border-top: 52px solid transparent;
-    border-bottom: 52px solid transparent;
-    top: -124px;
-    left: 113px;
+    border-right: 63px solid #D8221D;
+    border-top: 108px solid transparent;
+    border-bottom: 114px solid transparent;
+    top: -300px;
+    left: -250px;
     z-index: 11;
     position: absolute;
 
@@ -158,24 +180,23 @@ left: 62px;
 
 	.hexagon-14{
 	float: left;
-    width: 60px;
-    height: 104px;
+    width: 131px;
+    height: 222px;
     background-color: #D8221D;
-    top: -124px;
-    left: 143px;
+    top: -300px;
+    left: -187px;
     position: absolute;
     z-index: 12;
-
 	}
 
 	.hexagon-15{
 	float: left;
-    border-left: 30px solid #D8221D;
-    border-top: 52px solid transparent;
-    border-bottom: 52px solid transparent;
+    border-left: 63px solid #D8221D;
+    border-top: 108px solid transparent;
+    border-bottom: 114px solid transparent;
     z-index: 10;
-    top: -124px;
-    left: 203px;
+    top: -300px;
+    left: -56px;
     position: absolute;
 	}
 
@@ -436,36 +457,36 @@ left: 62px;
 	
 	.hexagon-1{
 		float: left;
-		border-right: 30px solid #1A4492;
-		border-top: 52px solid transparent;
-		border-bottom: 52px solid transparent;
-		top: 100px;
-		left: 112px;
-		z-index: 11;
-		position: absolute;
+    border-right: 63px solid #1A4492;
+    border-top: 108px solid transparent;
+    border-bottom: 114px solid transparent;
+    top: 100px;
+    left: -263px;
+    z-index: 11;
+    position: absolute;
 	}
 
 	.hexagon-2{
-		float: left;
-		width: 60px;
-		height: 104px;
-		background-color: #1A4492;
-		top: 100px;
-		left: 142px;
-		position: absolute;
-		z-index: 12;
-
+		    float: left;
+    width: 131px;
+    height: 222px;
+    background-color: #1A4492;
+    top: 100px;
+    left: -200px;
+    position: absolute;
+    z-index: 12;
 	}
 
 	.hexagon-3{
 		float: left;
-		border-left: 30px solid #1A4492;
-		border-top: 52px solid transparent;
-		border-bottom: 52px solid transparent;
-		z-index: 10;
-		top: 100px;
-		left: 202px;
-		position: absolute;
+    border-left: 63px solid #1A4492;
+    border-top: 108px solid transparent;
+    border-bottom: 114px solid transparent;
+    z-index: 10;
+    top: 100px;
+    left: -69px;
+    position: absolute;
+
 	}
 
 	.hexagon-4{
