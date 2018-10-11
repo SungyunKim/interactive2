@@ -1,0 +1,632 @@
+/* reset padding and margins */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	/*font-family: helvetica, arial, sans-serif;*/
+}
+
+/* container */
+
+.container {
+	position: relative;
+}
+
+/* items */
+
+.item {
+	/*height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+
+	cursor: pointer;*/
+}
+
+/* example button 1 */
+
+#button-1:hover {
+	transform: rotate(90deg);
+/*	opacity: .3;*/
+}
+
+
+#button-1 {
+	font-family: 'VT323', monospace;
+	font-size: 150px;
+	position: relative;
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+    font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 160%;
+	cursor: pointer;
+}
+
+/* example button 2 */
+
+#button-2 {
+	color: white;
+	font-family: 'Sacramento', cursive;
+	font-size: 150px;
+	position: relative;
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 190%;
+	cursor: pointer;
+	}
+
+
+#button-2:hover {
+	color: red;
+	transform: rotate(180deg);
+
+}
+
+/* example button 3 is changed only via js */
+
+#button-3{
+	font-size: 150px;
+	font-family: 'Monoton', cursive;
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 160%;
+	cursor: pointer;
+
+}
+
+
+/* example button 4 */
+#button-4 {
+	font-size: 200px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 150%;
+	/*background: linear-gradient(blue, pink);
+	color: transparent;*/
+}
+
+#button-4:hover {
+	animation: blinking 0.1s linear infinite;
+}
+@keyframes blinking {  
+  50% { opacity: 0; }
+}
+
+
+
+/* example button 5 */
+#button-5 {
+	border-radius: 0px;
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+	font-family: 'Josefin Slab', serif;
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 180%;
+}
+
+#button-5:active {
+	background: red;
+	transform: scale(0.9);
+	border-radius: 900px;
+	width:10px;
+	height:900px;
+}
+
+
+/* example button 6 */
+#button-6{
+	transition: none; 
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 160%;
+    font-family: 'Nova Mono', monospace;
+}
+
+#button-6:hover {
+
+	transform: translate(200px) scale(9);
+	mix-blend-mode: multiply;
+	opacity:1;
+}
+
+/* example button 6 */
+#button-7{
+	
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 160%;
+    font-family: 'Tangerine', cursive;
+
+
+}
+
+#button-7:hover {
+	filter: blur(15px);
+	transition: all 500ms ease; 
+	
+}
+
+
+/* example button 6 */
+#button-8{
+	transition: none; 
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 160%;
+    font-family: 'Lobster', cursive;
+
+
+}
+
+#button-8 {
+	
+	transition: all 500ms ease; 
+
+}
+
+/* example button 6 */
+#button-9{
+	transition: none; 
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 160%;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+/* example button 6 */
+#button-10{
+	transition: none; 
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 160%;
+    font-family: 'Ultra', serif;
+
+
+}
+
+#button-10:hover {
+	transform:scaleY(8);
+}
+
+/* example button 6 */
+#button-11{
+	transition: none; 
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 200%;
+ 	font-family: 'Mirza', cursive;
+
+
+}
+
+
+
+/* example button 6 */
+#button-12{
+	transition: none; 
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 170%;
+    font-family: 'Charmonman', cursive;
+
+}
+
+/* example button 6 */
+#button-13{
+	transition: none; 
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 180%;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+/* example button 6 */
+#button-14{
+	transition: none; 
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 160%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* example button 6 */
+#button-15{
+	transition: none; 
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 160%;
+    font-family: 'PT Serif', serif;
+
+}
+
+/* example button 6 */
+#button-16{
+	transition: none; 
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 160%;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+/* example button 6 */
+#button-17{
+	transition: none; 
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 160%;
+    font-family: 'Ranga', cursive;
+
+}
+
+/* example button 6 */
+#button-18{
+	transition: none; 
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 160%;
+    font-family: 'Khand', sans-serif;
+
+}
+
+/* example button 6 */
+#button-19{
+	transition: none; 
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 160%;
+    font-family: 'IM Fell English', serif;
+
+}
+
+/* example button 6 */
+#button-20{
+	transition: none; 
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 160%;
+    font-family: 'Molle', cursive;
+
+}
+
+/* example button 6 */
+#button-21{
+	transition: none; 
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 160%;
+    font-family: 'Sigmar One', cursive;
+
+}
+
+/* example button 6 */
+#button-22{
+	transition: none; 
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 160%;
+    font-family: 'Michroma', sans-serif;
+
+}
+
+/* example button 6 */
+#button-23{
+	transition: none; 
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 160%;
+    font-family: 'Antic Didone', serif;
+
+}
+
+/* example button 6 */
+#button-24{
+	transition: none; 
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 160%;
+    font-family: 'Righteous', cursive;
+
+}
+
+/* example button 6 */
+#button-25{
+	transition: none; 
+	height: 250px;
+	width: 250px;
+	background: blue;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left; 
+	transition: all 500ms ease; 
+	cursor: pointer;
+	font-size: 145px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 160%;
+    font-family: 'Audiowide', cursive;
+
+}
+
+
+
+
+
+
+
+
+
