@@ -23,3 +23,7 @@ iframe {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
+
+.btypebutton {
+	font-size: 100px;
+}
