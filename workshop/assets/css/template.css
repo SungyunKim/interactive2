@@ -1,0 +1,79 @@
+html, body, div, p {
+		margin: 0;	
+		padding: 0;
+		background: white;
+		font-family: 'helvetica';
+		
+		/*top: 100px;
+		left: 600px;
+		position: absolute, center;
+		font-weight: bold;
+		text-align: center;
+		line-height: 80%;
+		color: white;
+		line-height: 90%;
+		text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
+/*		background: white;*/
+ 
+}
+.draggable{
+	cursor: grab;
+}
+.draggable:active{
+	cursor: grabbing;
+}
+
+.frames{
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background: white;
+	border: solid 1px;
+	float: left;
+	margin:-45px;
+	z-index: 100;
+}
+.ranmvtype{
+	font-size: 250px;
+	color: black;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 60px;
+	z-index: 1;
+}
+.randommove1{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: white;
+	font-size: 250px;
+	z-index: 1;
+}
+.randommove2{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: white;
+	z-index: 1;
+}
+.randommove8{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: white;
+	font-size: 100px;
+	z-index: 1;
+}
+
+
+
+
+
+    .box {width: 100px; height: 100px; padding: 1em; position:absolute; background-color:white; border:solid 1px;color: black;}
+    .box1 {top:30%; left:5%; z-index:10;}
+    .box2 {top:30%; left:25%; z-index:20;}
+    .box3 {top:30%; left:45%; z-index:30;}
+    .box4 {top:30%; left:65%; z-index:40;}
+    .box5 {top:30%; left:85%; z-index:50;}
+    .box6 {top:30%; left:65%; z-index:40;}
+    .box7 {top:30%; left:85%; z-index:50;}
