@@ -25,6 +25,18 @@ html, body, div, p {
 
 .frames{
 	position: relative;
+	width: 410px;
+	height: 400px;
+	background: white;
+	border: solid 1px;
+	float: left;
+	margin:-45px;
+	z-index: 100;
+}
+.frames1{
+	top: -400px;
+	left: 800px;
+	position: absolute;
 	width: 400px;
 	height: 400px;
 	background: white;
@@ -33,6 +45,67 @@ html, body, div, p {
 	margin:-45px;
 	z-index: 100;
 }
+.frames9{
+	top: 40px;
+	left: 400px;
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	background: white;
+	border: solid 1px;
+	float: left;
+	margin:-45px;
+	z-index: 100;
+}
+.frames10{
+	top: 40px;
+	left: 300px;
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	background: white;
+	border: solid 1px;
+	float: left;
+	margin:-45px;
+	z-index: 100;
+}
+.frames11{
+	top: 90px;
+	left: 350px;
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	background: white;
+	border: solid 1px;
+	float: left;
+	margin:-45px;
+	z-index: 100;
+}
+.frames12{
+	top: 70px;
+	left: 370px;
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	background: white;
+	border: solid 1px;
+	float: left;
+	margin:-45px;
+	z-index: 100;
+}
+.frames13{
+	top: 40px;
+	left: 370px;
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	background: white;
+	border: solid 1px;
+	float: left;
+	margin:-45px;
+	z-index: 100;
+}
+
 .ranmvtype{
 	font-size: 250px;
 	color: black;
@@ -65,10 +138,6 @@ html, body, div, p {
 	z-index: 1;
 }
 
-
-
-
-
     .box {width: 100px; height: 100px; padding: 1em; position:absolute; background-color:white; border:solid 1px;color: black;}
     .box1 {top:30%; left:5%; z-index:10;}
     .box2 {top:30%; left:25%; z-index:20;}
@@ -77,3 +146,4 @@ html, body, div, p {
     .box5 {top:30%; left:85%; z-index:50;}
     .box6 {top:30%; left:65%; z-index:40;}
     .box7 {top:30%; left:85%; z-index:50;}
+
