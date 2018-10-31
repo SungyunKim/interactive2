@@ -194,7 +194,7 @@ body {
 
 #button-6:hover {
 
-	transform: translate(200px) scale(9);
+	transform: translate(200px) scaleY(2);
 	mix-blend-mode: multiply;
 	opacity:1;
 }
