@@ -322,8 +322,9 @@ body {
     text-align: center;
     line-height: 200%;
  	font-family: 'Mirza', cursive;
-
-
+}
+#button-11:hover {
+	transform:scaleX(7);
 }
 
 
@@ -331,6 +332,7 @@ body {
 /* example button 6 */
 #button-12{
 	transition: none; 
+	color: red;
 	height: 250px;
 	width: 250px;
 	background: blue;
@@ -347,6 +349,9 @@ body {
     line-height: 170%;
     font-family: 'Charmonman', cursive;
 
+}
+#button-12:hover {
+	transform:skewY(120deg);
 }
 
 /* example button 6 */
@@ -370,6 +375,13 @@ body {
 
 }
 
+#button-13:hover {
+	animation: blinking 0.9s linear infinite;
+}
+@keyframes blinking {  
+  90% { opacity: 0; }
+}
+
 /* example button 6 */
 #button-14{
 	transition: none; 
@@ -389,6 +401,10 @@ body {
     line-height: 160%;
     font-family: 'Roboto', sans-serif;
 
+}
+#button-14:hover {
+	transform:rotate(240deg);
+	color: red;
 }
 
 /* example button 6 */
@@ -411,6 +427,10 @@ body {
     font-family: 'PT Serif', serif;
 
 }
+#button-15:hover {
+	transform:scale(20deg);
+	color: black;
+}
 
 /* example button 6 */
 #button-16{
@@ -431,6 +451,10 @@ body {
     line-height: 160%;
     font-family: 'IBM Plex Mono', monospace;
 
+}
+#button-16:hover {
+	transform:scaleY(20deg);
+	color: red;
 }
 
 /* example button 6 */
@@ -454,6 +478,13 @@ body {
 
 }
 
+#button-17:active {
+	background: red;
+	transform: scale(0.5);
+	border-radius: 0px;
+	width:100px;
+	height:200px;
+}
 /* example button 6 */
 #button-18{
 	transition: none; 
@@ -474,7 +505,9 @@ body {
     font-family: 'Khand', sans-serif;
 
 }
-
+#button-18:hover {
+	transform:skewX(170deg);
+}
 /* example button 6 */
 #button-19{
 	transition: none; 
@@ -496,6 +529,12 @@ body {
 
 }
 
+#button-19:hover {
+
+	transform: translate(10px) scale(4) rotate(190deg);
+	mix-blend-mode: multiply;
+	opacity:0.5;
+}
 /* example button 6 */
 #button-20{
 	transition: none; 
@@ -517,6 +556,12 @@ body {
 
 }
 
+#button-20:hover {
+
+	transform: rotate(360deg);
+	mix-blend-mode: multiply;
+	
+}
 /* example button 6 */
 #button-21{
 	transition: none; 
@@ -536,6 +581,12 @@ body {
     line-height: 160%;
     font-family: 'Sigmar One', cursive;
 
+}
+#button-21:hover {
+
+	transform: rotateY(360deg);
+	color: green;
+	
 }
 
 /* example button 6 */
@@ -558,6 +609,12 @@ body {
     font-family: 'Michroma', sans-serif;
 
 }
+#button-22:hover {
+
+	transform: skewX(360deg);
+	color: blue;
+	
+}
 
 /* example button 6 */
 #button-23{
@@ -578,6 +635,12 @@ body {
     line-height: 160%;
     font-family: 'Antic Didone', serif;
 
+}
+#button-23:hover {
+
+	transform: rotateY(360deg) skewX(20deg);
+	color: red;
+	
 }
 
 /* example button 6 */
@@ -600,6 +663,12 @@ body {
     font-family: 'Righteous', cursive;
 
 }
+#button-24:hover {
+	animation: blinking 0.1s linear infinite;
+}
+@keyframes blinking {  
+  50% { opacity: 0; }
+}
 
 /* example button 6 */
 #button-25{
@@ -621,7 +690,12 @@ body {
     font-family: 'Audiowide', cursive;
 
 }
+#button-25:hover {
 
+	transform: rotateX(80deg) skewY(20deg);
+	color: black;
+	
+}
 
 
 

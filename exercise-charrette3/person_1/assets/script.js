@@ -38,6 +38,20 @@ $(document).ready(function(){
             button26=true;
         }
 	});  
+
+
+$('#button-13').click(function() {
+		$(this).toggleClass('gradient-background');
+	});
+
+
+	$('#button-17').click(function() {
+		$(this).next('.item').toggleClass('circle');
+	});
+
+	$('#button-24').click(function() {
+		$(this).toggleClass('gradient-background');
+	});
 	// check when the mouse moves
 	// $('#button-6').mousemove(function(e){
 		
