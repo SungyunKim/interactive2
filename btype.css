@@ -1,0 +1,72 @@
+body {
+margin: 0;	
+padding: 0;
+font-size: 1000px;
+top: 20px;
+left: 400px;
+position: absolute, center;
+font-weight: bold;
+text-align: center;
+line-height: 80%;
+color: black;
+line-height: 90%;
+text-shadow:  -1px 0 rgba(255, 255, 255, 1), 1px -1px 0 rgba(255, 255, 255, 1), -1px 1px 0 rgba(255, 255, 255, 1), 1px 1px 0 rgba(255, 255, 255, 1);
+background: black;
+ 
+}
+.b1{
+font-family: 'Lobster', cursive;
+font-family: 'Diplomata', cursive;
+font-family: 'Fascinate Inline', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Bevan', cursive;
+font-family: 'Playball', cursive;
+font-family: 'Chewy', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Titan One', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Black Ops One', cursive;
+font-family: 'Forum', cursive;
+font-family: 'Knewave', cursive;
+font-family: 'Limelight', cursive;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Ceviche One', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Alex Brush', cursive;
+font-family: 'VT323', monospace;
+font-family: 'Nova Mono', monospace;
+font-family: 'Chakra Petch', sans-serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Black Han Sans', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Text Me One', sans-serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Notable', sans-serif;
+font-family: 'Source Serif Pro', serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Marcellus SC', serif;
+font-family: 'Sancreek', cursive;
+font-family: 'Pirata One', cursive;
+font-family: 'Plaster', cursive;
+font-family: 'Joti One', cursive;
+font-family: 'Diplomata SC', cursive;
+font-family: 'Flavors', cursive;
+font-family: 'Henny Penny', cursive;
+font-family: 'UnifrakturCook', cursive;
+font-family: 'Asset', cursive;
+font-family: 'Akronim', cursive;
+font-family: 'Ewert', cursive;
+font-family: 'Snowburst One', cursive;
+font-family: 'Arbutus', cursive;
+font-family: 'Caesar Dressing', cursive;
+font-family: 'Keania One', cursive;
+font-family: 'Bungee Outline', cursive;
+font-family: 'Geostar Fill', cursive;
+font-family: 'Geostar', cursive;
+font-family: 'Hanalei', cursive;
+
+}
+.b2{
+  font-family: 'VT323', monospace;
+}
