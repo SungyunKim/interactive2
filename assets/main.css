@@ -1,0 +1,112 @@
+body {
+	background: black;	
+	color: white;
+	font-family: times;
+
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+
+  	min-height: 100vh;
+}
+
+.noon {
+	background: red;
+}
+
+#clock {
+	position: relative;
+    font-size: 300px;
+	display: flex;
+	align-items: center;
+  justify-content: center;
+  filter: blur(7px);
+
+
+
+}
+#clock2 {
+	position: relative;
+    margin-left: -1000px;
+	margin-top: -700px;
+    font-size: 80px;
+	display: flex;
+	align-items: left;
+  	justify-content: center;
+  	filter: blur(10px);
+    -webkit-perspective: 200px; /* Chrome, Safari, Opera */
+    perspective: 200px;
+
+
+
+}
+
+#clock3 {
+	
+    position: relative;
+	margin-top: -500px;
+    font-size: 150px;
+	display: flex;
+	align-items: right;
+  	justify-content: center;
+  	filter: blur(8px);
+
+
+}
+
+#clock4 {
+	
+    position: relative;
+	margin-top: 400px;
+    font-size: 120px;
+	display: flex;
+	align-items: right;
+  	justify-content: center;
+  	filter: blur(8.5px);
+
+
+}
+
+#clock5 {
+	
+    position: relative;
+	margin-top: 800px;
+	margin-left: -1500px;
+    font-size: 90px;
+	display: flex;
+	align-items: right;
+  	justify-content: center;
+  	filter: blur(8.5px);
+
+
+}
+
+
+/*.windowBox{
+  position: relative;
+  left: 0;
+  top: 0;
+  /*화면조정용 > px로 바꿔서 조정*/
+  width: 8000px;
+  /*화면조정용 end */
+  height: 100vh;
+  /*background: white;*/
+  overflow: hidden;
+}*/
+
+#clock:hover {
+  filter: blur(0px);
+}
+#clock2:hover {
+  filter: blur(0px);
+}
+#clock3:hover {
+  filter: blur(0px);
+}
+#clock4:hover {
+  filter: blur(0px);
+}
+#clock5:hover {
+  filter: blur(0px);
+}
+
