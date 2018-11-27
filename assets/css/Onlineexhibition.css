@@ -1,11 +1,51 @@
 
 body {
-margin:  50px;	
-padding: 0;
-font-family: 'Prata', serif;
-font-size: 70px;
-border: 2px solid black;
-
+	margin: 0px;	
+	padding: 0;
+	font-family: 'Prata', serif;
+	font-size: 70px;
+	/*border: 2px solid red;*/
+	/*position: absolute;*/
+	/*overflow: hidden;*/
+	overflow-Y: hidden;
+	width: 4500px;
+	height: 100vh;
+	/*background: red;*/
+}
+.section1{
+	width: 100vw;
+	height: 100vh;
+	/*background: blue;*/
+	position: relative;
+	float: left;
+}
+.section2{
+	width: 100vw;
+	height: 100vh;
+	/*background: yellow;*/
+	position: relative;
+	float: left;
+}
+.floorPlan{
+	width: 100vw;
+	height: auto;
+}
+h1{
+	margin: 0;
 }
 
 
+
+
+/*.floor {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: -1100px;
+	left: 10px;
+}
+
+.1 {
+	top: 10px;
+	left: 200px*/
+/*}*/
