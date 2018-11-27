@@ -15,24 +15,48 @@ body {
 .section1{
 	width: 100vw;
 	height: 100vh;
-	/*background: blue;*/
+	background: blue;
 	position: relative;
 	float: left;
 }
+
 .section2{
 	width: 100vw;
 	height: 100vh;
-	/*background: yellow;*/
+	background: yellow;
 	position: relative;
 	float: left;
 }
+
+.section3{
+	width: 100vw;
+	height: 100vh;
+	background: orange;
+	position: relative;
+	float: left;
+}
+
 .floorPlan{
 	width: 100vw;
 	height: auto;
 }
+
+.s2layer{
+	position: absolute;
+
+}
+.sp11{
+	width: 10px;
+	height: 0px;
+	
+	
+}
+
+
 h1{
 	margin: 0;
 }
+
 
 
 
