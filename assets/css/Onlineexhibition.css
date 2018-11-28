@@ -15,15 +15,23 @@ body {
 .section1{
 	width: 100vw;
 	height: 100vh;
-	background: blue;
+	/*background: red;*/
 	position: relative;
 	float: left;
+}
+.s2layer.sp11{
+	position: absolute;
+	top: -20px;
+	left:10px;
+	width: 200px;
+	height: 20px;
+
 }
 
 .section2{
 	width: 100vw;
 	height: 100vh;
-	background: yellow;
+	/*background: yellow;*/
 	position: relative;
 	float: left;
 }
@@ -31,33 +39,114 @@ body {
 .section3{
 	width: 100vw;
 	height: 100vh;
-	background: orange;
+	/*background: orange;*/
 	position: relative;
 	float: left;
 }
 
 .floorPlan{
+	margin: 0px;
 	width: 100vw;
 	height: auto;
 }
 
+.floorPlan{
+	margin: 0px;
+	width: 100vw;
+	height: auto;
+}
+
+
 .s2layer{
 	position: absolute;
+	top: 0px;
+
+
 
 }
-.sp11{
-	width: 10px;
-	height: 0px;
-	
-	
+.pic1{
+	position: absolute;
+	top: 450px;
+	left: 505px;
+
+}
+.pic1 img{
+	width: 250px;
+	left: -250px;
+	top: 100px;
+	z-index: 400;
+}
+.pic1:hover{
+	background-color: gray;
+}
+
+
+.pic2{
+	position: absolute;
+	top: 500px;
+	left: 1070px;
+
+}
+.pic2 img{
+	width: 100px;
+	left: -100px;
+	z-index: 400;
+}
+.pic3{
+	position: absolute;
+	top: 70px;
+	left: 190px;
+
+}
+.pic3 img{
+	width: 100px;
+	left: -100px;
+	z-index: 400;
+}
+.pic4{
+	position: absolute;
+	top: 150px;
+	left: 350px;
+
+}
+.pic4 img{
+	width: 180px;
+	left: -180px;
+	z-index: 400;
+}
+.pic5{
+	position: absolute;
+	top: 100px;
+	left: 950px;
+
+}
+.pic5 img{
+	width: 180px;
+	left: -180px;
+	z-index: 400;
 }
 
 
 h1{
 	margin: 0;
+	width: 100px;
+	height: 100px;
+
 }
+.2{
+	top: 0px;
+	left: 0px;
+	width: 100px;
+	height: 100px;
 
-
+}
+.floorPlan3{
+	width: 1200px;
+	height: 900px;
+	left: 50px;
+	top: -50px;
+	position: absolute;
+}
 
 
 

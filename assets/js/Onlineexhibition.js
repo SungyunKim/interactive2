@@ -1,7 +1,9 @@
 $(document).ready(function(){
-    $("class").mouseover(function(){
-        $(this).css("floor", "yellow");
+    $("pic1").mouseover(function(){
+        $(this).css("pic1", "yellow");
         }, function(){
         $(this).css("floor", "pink");
     });
 });
+
+
