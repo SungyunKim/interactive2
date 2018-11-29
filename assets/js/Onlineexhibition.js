@@ -1,9 +1,7 @@
 $(document).ready(function(){
-    $("pic1").mouseover(function(){
-        $(this).css("pic1", "yellow");
-        }, function(){
-        $(this).css("floor", "pink");
-    });
+    $('.pic1pic').click(function() {
+		$('.pic1d1').toggleClass('show');
+	});
 });
 
 
