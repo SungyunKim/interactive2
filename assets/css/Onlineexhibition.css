@@ -10,6 +10,7 @@ body {
 	overflow-Y: hidden;
 	width: 4500px;
 	height: 100vh;
+
 	/*background: red;*/
 }
 .section1{
@@ -18,16 +19,26 @@ body {
 	/*background: red;*/
 	position: relative;
 	float: left;
+	font-size: 50px;
+	top: 160px;
+	left: 200px;
 }
+.scroll{
+	top: 593px;
+    left: 480px;
+    font-size: 9px;
+    position: absolute;
+    /*font-family: "space mono"*/
+
+}
+
 .s2layer.sp11{
 	position: absolute;
 	top: -20px;
 	left:10px;
 	width: 200px;
 	height: 20px;
-
 }
-
 .section2{
 	width: 100vw;
 	height: 100vh;
@@ -60,9 +71,14 @@ body {
 .s2layer{
 	position: absolute;
 	top: 0px;
+}
 
 
-
+.s3layer{
+	position: absolute;
+	font-size: 30px;
+	top: 10px;
+	left: 10px;
 }
 .pic1{
 	position: absolute;
@@ -140,6 +156,7 @@ h1{
 	height: 100px;
 
 }
+
 .floorPlan3{
 	width: 1200px;
 	height: 900px;
