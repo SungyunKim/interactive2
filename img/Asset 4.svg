@@ -1,1 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1285 694"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Asset 4</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M1270,24.25V667.9H15V24.25H1270m15-15H0V682.9H1285V9.25Z"/><path d="M278.86,335.27V678.9H4V335.27H278.86m4-4H0V682.9H282.86V331.27Z"/><path d="M1281,27.13V262.5h-36.71V27.13H1281m4-4h-44.71V266.5H1285V23.13Z"/><path d="M1281,266.79V678.9H1006.14V266.79H1281m4-4H1002.14V682.9H1285V262.79Z"/><rect class="cls-1" x="592.93" y="664.39" width="409.22" height="29.61"/><rect class="cls-1" x="592.93" width="201.21" height="29.61"/><rect class="cls-1" x="84.57" y="316.46" width="114.7" height="29.61"/><rect class="cls-1" x="1084.77" y="251.69" width="105.95" height="29.61"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1285 694" style="enable-background:new 0 0 1285 694;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<rect x="0" y="0" width="1285" height="694"/>
+<title>Asset 4</title>
+<path d="M357.7,337.4v280.1h-224V337.4H357.7 M361,334.2H130.5v286.6H361V334.2z"/>
+<path class="st0" d="M1165.5,84v524.6H142.7V84H1165.5 M1177.7,71.7H130.5v549h1047.3V71.7z"/>
+<rect x="640.8" y="601.5" width="537" height="24.1"/>
+<rect x="137.5" y="601.5" width="480.7" height="24.1"/>
+<rect x="588.1" y="611.8" width="333.5" height="24.1"/>
+<rect x="613.7" y="64.2" width="164" height="24.1"/>
+<rect x="199.4" y="322.1" width="93.5" height="24.1"/>
+<rect x="357.7" y="599.6" class="st0" width="284.8" height="12.2"/>
+<rect x="931.3" y="599.6" width="12.2" height="12.2"/>
+<rect x="1153.5" y="269.6" width="36.6" height="343.9"/>
+<rect x="130.5" y="325.2" class="st0" width="230.5" height="12.2"/>
+<rect x="371.5" y="71.7" class="st0" width="248.9" height="12.2"/>
+<rect x="1014.8" y="269.9" width="86.3" height="24.1"/>
+<rect x="931.3" y="282" class="st0" width="246.5" height="12.2"/>
+<rect x="1165.5" y="91.1" class="st0" width="12.2" height="196.3"/>
+<rect x="348.8" y="325.2" class="st0" width="12.2" height="286.6"/>
+<rect x="931.3" y="282" class="st0" width="12.2" height="329.8"/>
+<rect x="630.3" y="599.6" class="st0" width="12.2" height="94.4"/>
+<rect x="931.3" y="599.6" class="st0" width="12.2" height="94.4"/>
+<rect x="118" y="337.4" width="36.8" height="284.5"/>
+<circle class="st0" cx="899.2" cy="477.5" r="22.4"/>
+<circle class="st0" cx="308.2" cy="157.2" r="22.4"/>
+<circle class="st0" cx="588.1" cy="477.5" r="47.3"/>
+<circle class="st0" cx="977.4" cy="174.8" r="40"/>
+<circle class="st0" cx="507.4" cy="310.2" r="55.9"/>
+</svg>
