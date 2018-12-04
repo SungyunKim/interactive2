@@ -1,3 +1,12 @@
+
+
+
+
+$(function() {
+    $( ".circle1,.pic1pic2" ).draggable();
+    $( ".square1" ).draggable();
+  });
+
 $(document).ready(function(){
     $('.pic1pic').click(function() {
 		$('.pic1d1').toggleClass('show');
@@ -33,3 +42,13 @@ $(document).ready(function(){
 	});
 });
 
+
+
+// class App {
+
+//   static init() {
+
+//     App.box = document.getElementsByClassName('box')[0]
+
+//     App.box.addEventListener("dragstart", App.dragstart)
+//     App.box.addEventListener("dragend", App.dragend)

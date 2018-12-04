@@ -87,7 +87,7 @@ body {
 
 .floorPlan{
 	margin: 25px;
-	width: 90vw;
+	width: 104vw;
 
 	height: auto;
 }
@@ -149,8 +149,11 @@ body {
 	width: 84px;
 	top: -380px;
 	left: -410px;
-	cursor: pointer;
+	cursor: grab;
 	position: absolute;
+}
+.pic1pic2{
+	cursor: grabbing
 }
 .pic1d3{
 	position: absolute;
@@ -271,6 +274,42 @@ h1{
 	display: block;
 }
 
+.circle1{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	border-radius: 50%;
+	z-index: 100;
+	left: 100px;
+	top: 20px;
+	background: red;
+	cursor: grab;
+}	
+.circle1:active{
+	cursor: grabbing;
+}
+.square1{
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	left: 45px;
+	top: 70px;
+	background: white;
+	cursor: grab;
+}
+.square1:active{
+	cursor: grabbing;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  position: relative;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+}
 /*.floor {
 	width: 100px;
 	height: 100px;
