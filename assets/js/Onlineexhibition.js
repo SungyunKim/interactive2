@@ -7,6 +7,26 @@ $(function() {
     $( ".square1" ).draggable();
   });
 
+$(function() {
+    $( ".circle2,.pic1pic1" ).draggable();
+    $( ".square1" ).draggable();
+  });
+
+$(function() {
+    $( ".circle3,.pic1pic3" ).draggable();
+    $( ".square1" ).draggable();
+  });
+
+$(function() {
+    $( ".circle4,.pic1pic4" ).draggable();
+    $( ".square1" ).draggable();
+  });
+
+$(function() {
+    $( ".circle5,.picpic" ).draggable();
+    $( ".square1" ).draggable();
+  });
+
 $(document).ready(function(){
     $('.pic1pic').click(function() {
 		$('.pic1d1').toggleClass('show');
