@@ -83,6 +83,13 @@ body {
 	position: relative;
 	float: left;
 }
+.section4{
+	width: 100vw;
+	height: 100vh;
+	/*background: orange;*/
+	position: relative;
+	float: left;
+}
 
 
 .floorPlan{
@@ -107,6 +114,13 @@ body {
 	top: 50px;
 	left: 200px;
 	color: red;
+}
+.s4layer{
+	position: absolute;
+	font-size: 30px;
+	top: 50px;
+	left: 200px;
+	color: green;
 }
 .pic1{
 	position: absolute;
@@ -312,7 +326,22 @@ h1{
 	width: 160px;
 	height: 160px;
 }
-
+.info4{
+	position: absolute;
+	top: 190px;
+	left: 1250px;
+	color: white;
+	z-index: 10;
+	font-size: 15px;
+	width: 160px;
+	height: 160px;
+}
+/*.num1{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: red;
+}*/
 .circle1{
 	width: 160px;
 	height: 160px;
@@ -328,14 +357,14 @@ h1{
 	cursor: grabbing;
 }
 .circle2{
-	width: 140px;
-	height: 140px;
+	width: 100px;
+	height: 100px;
 	position: absolute;
 	border-radius: 50%;
 	z-index: 100;
-	left: 1220px;
-	top: 170px;
-	background: yellow;
+	left: 1265px;
+	top: 190px;
+	background: black;
 	cursor: grab;
 }	
 .circle2:active{
