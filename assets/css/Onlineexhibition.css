@@ -14,6 +14,7 @@ body {
 
 	/*background: red;*/
 }
+
 #descrit2 {
 	top: 10px;
 	font-size: 20px;
@@ -26,21 +27,18 @@ body {
 	font-size: 20px;
 	left: 10px;
 	position: absolute;
-
 }
 #descrit3 {
 	top: 10px;
 	font-size: 20px;
 	left: 10px;
 	position: absolute;
-
 }
 #descrit4 {
 	top: 10px;
 	font-size: 20px;
 	left: 10px;
 	position: absolute;
-
 }
 .section1{
 	width: 100vw;
@@ -54,19 +52,31 @@ body {
 }
 .scroll{
 	top: 593px;
-    left: 480px;
-    font-size: 9px;
+    left: 485px;
+    font-size: 10px;
     position: absolute;
     /*font-family: "space mono"*/
 
 }
-
 .s2layer.sp11{
 	position: absolute;
 	top: -20px;
 	left:10px;
 	width: 200px;
 	height: 20px;
+}
+.sub{
+	position: absolute;
+	font-size: 10px;
+	left: 800px;
+	top: 320px;
+}
+.logo{
+	position: absolute;
+	left: 327px;
+	top: 230px;
+	width: 100px;
+	height: 80px;
 }
 .section2{
 	width: 100vw;
@@ -75,7 +85,6 @@ body {
 	position: relative;
 	float: left;
 }
-
 .section3{
 	width: 100vw;
 	height: 100vh;
@@ -90,30 +99,24 @@ body {
 	position: relative;
 	float: left;
 }
-
-
 .floorPlan{
 	margin: 25px;
 	width: 104vw;
 
 	height: auto;
 }
-
-
 .s2layer{
 	position: absolute;
 	top: 0px;
 	width: 100px;
 	height: 100px;
 }
-
-
 .s3layer{
 	position: absolute;
-	font-size: 30px;
+	font-size: 20px;
 	top: 50px;
 	left: 200px;
-	color: red;
+	color: black;
 }
 .s4layer{
 	position: absolute;
@@ -143,6 +146,7 @@ body {
 	z-index: 399;
 	display: none;
 }
+
 .pic1pic1{
 	width: 84px;
 	top: 10px;
@@ -211,16 +215,14 @@ body {
 	display: none;
 }
 .title{
-	font-size: 20px;
+	font-size: 15px;
+	color: black;
 
 }
-
-
 .pic2{
 	position: absolute;
 	top: 500px;
 	left: 1070px;
-
 }
 .pic2 img{
 	width: 100px;
@@ -231,7 +233,6 @@ body {
 	position: absolute;
 	top: 70px;
 	left: 190px;
-
 }
 .pic3 img{
 	width: 100px;
@@ -425,6 +426,33 @@ h1{
 	cursor: grabbing;
 }
 
+.square1:hover{
+	opacity: .95
+}
+.square2{
+	width: 150px;
+	height: 80px;
+	position: absolute;
+	left: 805px;
+	top: 340px;
+	background: white;
+	cursor: grab;
+	}
+.square2:active{
+	cursor: grabbing;
+}
+.square3{
+	width: 70px;
+	height: 30px;
+	position: absolute;
+	left: 1150px;
+	top: 580px;
+	background: white;
+	cursor: grab;
+}
+.square3:active{
+	cursor: grabbing;
+}
 .box {
   height: 100px;
   width: 100px;
