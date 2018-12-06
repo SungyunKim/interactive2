@@ -100,10 +100,10 @@ body {
 	float: left;
 }
 .floorPlan{
-	margin: 25px;
-	width: 104vw;
+	margin: 0px;
+	width: 120vw;
 
-	height: auto;
+	height: 800px;
 }
 .s2layer{
 	position: absolute;
@@ -114,7 +114,7 @@ body {
 .s3layer{
 	position: absolute;
 	font-size: 20px;
-	top: 50px;
+	top: 40px;
 	left: 200px;
 	color: black;
 }
@@ -150,7 +150,7 @@ body {
 .pic1pic1{
 	width: 84px;
 	top: 10px;
-	left: 500px;
+	left: 600px;
 	cursor: pointer;
 	position: absolute;
 }
@@ -185,7 +185,7 @@ body {
 .pic1pic3{
 	width: 170px;
 	top: -260px;
-	left: 10px;
+	left: 30px;
 	cursor: pointer;
 	position: absolute;
 }
@@ -216,6 +216,9 @@ body {
 }
 .title{
 	font-size: 15px;
+	left: 10px;
+	top: 80px;
+	position: absolute;
 	color: black;
 
 }
@@ -291,19 +294,19 @@ h1{
 .info{
 	position: absolute;
 	top: 248px;
-	left: 290px;
-	color: white;
+	left: 320px;
+	color: black;
 	z-index: 10;
-	font-size: 15px;
+	font-size: 10px;
 }
 
 .info1{
 	position: absolute;
-	top: 190px;
-	left: 800px;
-	color: white;
+	top: 240px;
+	left: 750px;
+	color: black;
 	z-index: 10;
-	font-size: 15px;
+	font-size: 10px;
 	width: 160px;
 	height: 160px;
 }
@@ -311,19 +314,19 @@ h1{
 	position: absolute;
 	top: 500px;
 	left: 800px;
-	color: white;
+	color: black;
 	z-index: 10;
-	font-size: 15px;
+	font-size: 10px;
 	width: 160px;
 	height: 160px;
 }
 .info3{
 	position: absolute;
-	top: 580px;
-	left: 950px;
-	color: white;
+	top: 570px;
+	left: 1040px;
+	color: black;
 	z-index: 10;
-	font-size: 12px;
+	font-size: 10px;
 	width: 160px;
 	height: 160px;
 }
@@ -331,9 +334,9 @@ h1{
 	position: absolute;
 	top: 190px;
 	left: 1250px;
-	color: white;
+	color: black;
 	z-index: 10;
-	font-size: 15px;
+	font-size: 10px;
 	width: 160px;
 	height: 160px;
 }
@@ -344,81 +347,82 @@ h1{
 	color: red;
 }*/
 .circle1{
-	width: 160px;
-	height: 160px;
+	width: 100px;
+	height: 100px;
 	position: absolute;
 	border-radius: 50%;
 	z-index: 100;
-	left: 300px;
+	left:320px;
 	top: 240px;
-	background: black;
+	background: white;
 	cursor: grab;
 }	
 .circle1:active{
 	cursor: grabbing;
 }
 .circle2{
-	width: 100px;
-	height: 100px;
+	width: 40px;
+	height: 40px;
 	position: absolute;
 	border-radius: 50%;
 	z-index: 100;
-	left: 1265px;
+	left: 1253px;
 	top: 190px;
-	background: black;
+	background: white;
 	cursor: grab;
 }	
 .circle2:active{
 	cursor: grabbing;
 }
 .circle3{
-	width: 190px;
-	height: 190px;
+	width: 140px;
+	height: 140px;
 	position: absolute;
 	border-radius: 50%;
 	z-index: 100;
-	left: 770px;
-	top: 210px;
-	background: black;
+	left: 750px;
+	top: 225px;
+	background: white;
 	cursor: grab;
 }	
 .circle3:active{
 	cursor: grabbing;
 }
 .circle4{
-	width: 150px;
-	height: 150px;
+	width: 130px;
+	height: 130px;
 	position: absolute;
 	border-radius: 50%;
 	z-index: 100;
-	left: 950px;
-	top: 590px;
-	background: black;
+	left: 1034px;
+	top: 570px;
+	background: white;
 	cursor: grab;
 }	
 .circle4:active{
 	cursor: grabbing;
 }
 .circle5{
-	width: 150px;
-	height: 150px;
+	width: 40px;
+	height: 40px;
 	position: absolute;
 	border-radius: 50%;
 	z-index: 100;
-	left: 780px;
-	top: 510px;
-	background: black;
+	left: 803px;
+	top: 500px;
+	background: white;
 	cursor: grab;
 }	
 .circle5:active{
 	cursor: grabbing;
 }
 .square1{
-	width: 600px;
+	width: 400px;
 	height: 400px;
 	position: absolute;
 	left: 45px;
-	top: 70px;
+	top: 10px;
+	border-radius: 50%;
 	background: white;
 	cursor: grab;
 }
@@ -427,31 +431,39 @@ h1{
 }
 
 .square1:hover{
-	opacity: .95
+	opacity: .85
 }
 .square2{
-	width: 150px;
-	height: 80px;
+	width: 120px;
+	height: 120px;
 	position: absolute;
-	left: 805px;
-	top: 340px;
+	left: 820px;
+	top: 300px;
+	border-radius: 50%;
 	background: white;
 	cursor: grab;
 	}
 .square2:active{
 	cursor: grabbing;
 }
+.square2:hover{
+	opacity: .85
+}
 .square3{
-	width: 70px;
-	height: 30px;
+	width: 50px;
+	height: 50px;
 	position: absolute;
-	left: 1150px;
-	top: 580px;
+	left: 1152px;
+	top: 565px;
+	border-radius: 50%;
 	background: white;
 	cursor: grab;
 }
 .square3:active{
 	cursor: grabbing;
+}
+.square3:hover{
+	opacity: .85
 }
 .box {
   height: 100px;
