@@ -19,13 +19,23 @@ $(function() {
   });
 
 $(function() {
-    $( ".circle5,.picpic" ).draggable();
+    $( ".circle5,.picpic, spic1pic3" ).draggable();
     $( ".square2" ).draggable();
   });
 
 $(function() {
-    $( ".circle5,.pic1pic" ).draggable();
+    $( ".circle5,.pic1pic,.circleT" ).draggable();
     $( ".square2" ).draggable();
+  });
+
+$(function() {
+    $( ".circle5,.pic1pic,.circleT" ).draggable();
+    $( ".spic1pic3" ).draggable();
+  });
+
+$(function() {
+    $( ".circle5,.pic1pic,.circleT" ).draggable();
+    $( ".spic1pic" ).draggable();
   });
 
 // $(document).ready(function(){
